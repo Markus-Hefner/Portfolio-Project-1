@@ -21,14 +21,21 @@ header {
     background-color: lightgreen;
     width: 100%;
     display: flex;
+    flex-direction: column;    
 }
 
 #primary-heading {
     font-family: Raleway, sans-serif;
+    color: #303030;
 }
 
-nav li {
-    display: inline;
+nav {
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #303030;
 }
 
 /* Main content */
@@ -41,4 +48,27 @@ main {
 /* Footer */
 footer {
     background-color: pink;
+}
+
+
+
+
+/* media query for later */
+@media screen and (min-width: 768px) {
+    header {
+        background-color: lightgreen;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;    
+    }
+
+    nav li {
+        display: inline;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: #f8f7a2;
+    }
 }
