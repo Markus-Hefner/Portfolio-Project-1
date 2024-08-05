@@ -86,6 +86,11 @@ footer {
     gap: 10px;
 }
 
+#social a {
+    color:#272727;
+    text-decoration: none;
+}
+
 
 
 
