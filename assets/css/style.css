@@ -74,6 +74,18 @@ footer {
     background-color: whitesmoke;
 }
 
+#visit-us {
+    display: flex;
+    justify-content: center;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 
 
 
