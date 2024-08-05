@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!-- Stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -41,27 +42,30 @@
                 Contact Us
             </h2>
         </div>
-        <form>
-            <label>Child's first name</label>
-            <input type="text" name="childs-first-name">
+        <form id="signup-form">
+            <label for="childs-first-name">Child's first name</label>
+            <input type="text" name="childs-first-name" class="signup-input" required>
             <br>
-            <label>Child's last name</label>
-            <input type="text" name="childs-last-name">
+            <label for="childs-last-name">Child's last name</label>
+            <input type="text" name="childs-last-name" class="signup-input" required>
             <br>
-            <label>Child's age</label>
-            <input type="text" name="childs-age">
+            <label for="childs-age">Child's age</label>
+            <input type="text" name="childs-age" class="signup-input" required>
             <br>
-            <label>Guardian's first name</label>
-            <input type="text" name="guardians-first-name">
+            <label for="guardians-first-name">Guardian's first name</label>
+            <input type="text" name="guardians-first-name" class="signup-input" required>
             <br>
-            <label>Guardian's last name</label>
-            <input type="text" name="guardians-last-name">
+            <label for="guardians-last-name">Guardian's last name</label>
+            <input type="text" name="guardians-last-name" class="signup-input" required>
             <br>
-            <label>Email</label>
-            <input type="email" name="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="signup-input" required>
             <br>
-            <label>Phone (optional)</label>
-            <input type="phone" name="phone">
+            <label for="phone">Phone (optional)</label>
+            <input type="phone" name="phone" class="signup-input">
+            <div id="submit">
+                <input type="submit" value="Send">
+            </div>
         </form>
     </main>
 
@@ -79,4 +83,5 @@
         </section>
     </footer>
 </body>
+
 </html>
