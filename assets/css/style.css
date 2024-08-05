@@ -97,6 +97,10 @@ table, th, td {
     font-size: 90%;
 }
 
+#lesson-frquency {
+    margin-top: 20px;
+    font-size: 70%;
+}
 
 /* Main content - Location */
 
