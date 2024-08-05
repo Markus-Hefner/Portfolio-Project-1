@@ -18,16 +18,22 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
 }
 
 #primary-heading {
     font-family: Raleway, sans-serif;
 }
 
+nav li {
+    display: inline;
+}
+
 /* Main content */
 main {
-    background-color: lightgreen;
+    background-color: #f8f7a2;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
