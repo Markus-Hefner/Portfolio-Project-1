@@ -73,6 +73,30 @@ main {
 
 /* Main content - Pricing */
 
+#pricing {
+    margin: 10px 5% 10px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#price-table {
+    border:#272727;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+table, th, td {
+    padding: 2px;
+    border:#272727;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    font-size: 90%;
+}
+
 
 /* Main content - Location */
 
