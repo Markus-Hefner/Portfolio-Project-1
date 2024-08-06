@@ -17,6 +17,10 @@ body {
     color: #272727;
 }
 
+h1, h2, h3, h4 {
+    font-family: Raleway, sans-serif;
+}
+
 /* Header */
 header {
     background-color: rgba(144, 238, 144, 0.5);
@@ -25,22 +29,33 @@ header {
     flex-direction: column;    
 }
 
-#header-section {
-    position: absolute;
+#header-section h1 {
+    z-index: 50;
     text-align: center; 
 }
 
 #header-section img {
+    position: absolute;
     width: 100%;
 }
 
-h1, h2, h3, h4 {
-    font-family: Raleway, sans-serif;
+#primary-heading {
+
+}
+
+#navbar-section {
+    position: relative;
 }
 
 nav {
     color:#272727;
+    background-color: whitesmoke;
+    width: 100%;
     z-index: 99;
+}
+
+nav li {
+    display: inline;
 }
 
 nav li a {
