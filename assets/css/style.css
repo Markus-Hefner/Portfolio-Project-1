@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     font-family: 'Merriweather', serif;
     color: #272727;
+    position: relative;
 }
 
 h1, h2, h3, h4 {
@@ -28,19 +29,19 @@ header {
     display: flex;
     flex-direction: column;    
 }
+#title-section {
+    display: flex;
+    flex-direction: column;
+}
 
-#header-section h1 {
+#title-section h1 {
     z-index: 50;
     text-align: center; 
 }
 
-#header-section img {
+#title-section img {
     position: absolute;
     width: 100%;
-}
-
-#primary-heading {
-
 }
 
 #navbar-section {
