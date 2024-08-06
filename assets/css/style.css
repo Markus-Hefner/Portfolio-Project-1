@@ -40,6 +40,7 @@ h1, h2, h3, h4 {
 
 nav {
     color:#272727;
+    z-index: 99;
 }
 
 nav li a {
@@ -52,6 +53,7 @@ main {
     background-color: #f8f7a2;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    min-height: 800px; /* This has to be removed later */
 }
 
 /* Main content - Home */
