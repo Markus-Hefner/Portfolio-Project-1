@@ -106,11 +106,17 @@ main {
 
 /* Main content - Home - Why section */
 #why {
-    margin: 1rem 5% 1.5rem 10%;
+    margin: 0.75rem 5% 0.75rem 5%;;
 }
 
 #why h3 {
     font-size: 110%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+}
+
+#why-list {
+    padding-left: 1.25rem;
 }
 
 #why ul li {
