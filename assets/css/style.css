@@ -88,6 +88,16 @@ main {
 }
 
 /* Main content - Home - Banner */
+#banner {
+    width: 100%;
+}
+
+#banner h2 {
+    font-size: 1.125rem;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+}
+
 #hero-image {
     background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
     width: 100%;
