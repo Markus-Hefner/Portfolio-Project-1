@@ -126,6 +126,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 7rem;
 }
 
 #price-table {
@@ -151,6 +152,9 @@ table, th, td {
 }
 
 /* Main content - Location */
+#location-section {
+    padding-top: 7rem;
+}
 
 /* Main content - Contact Us */
 
