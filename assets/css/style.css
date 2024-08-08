@@ -93,7 +93,7 @@ main {
 }
 
 #banner h2 {
-    font-size: 110%;
+    font-size: 120%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 }
@@ -110,7 +110,7 @@ main {
 }
 
 #why h3 {
-    font-size: 100%;
+    font-size: 110%;
 }
 
 #why ul li {
@@ -148,7 +148,7 @@ main {
     height: 7rem;
 }
 
-#price-heading h2 {
+#price-heading h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
@@ -192,7 +192,7 @@ table, th, td {
     height: 7rem;
 }
 
-#location-section h2{
+#location-section h3{
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
