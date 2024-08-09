@@ -120,7 +120,7 @@ main {
 
 .sections-general {
     margin: 0.75rem 5% 0.75rem 5%;
-    border: 2px solid black; /* This has to be removed later */
+    /* border: 2px solid black; /* This has to be removed later */ */
 }
 
 /* #why-section h3 {
@@ -238,6 +238,10 @@ table, th, td {
 .quote {
     font-size: 90%;
     margin: 0.25rem 0 0.25rem 0;
+}
+
+#quotation {
+    text-align: center;
 }
 
 #quote-source {
