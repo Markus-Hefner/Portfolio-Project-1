@@ -81,6 +81,8 @@ nav ul {
     width: 100%;
     justify-content: center;
     list-style-type: none;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 nav li a {
@@ -146,6 +148,7 @@ main {
     display: flex;
     justify-content: center;
     margin: 10%;
+    background-color: whitesmoke;
 }
 
 #free-trial {
