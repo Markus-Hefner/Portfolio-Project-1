@@ -147,7 +147,7 @@ main {
     text-decoration: none;
 }
 
-/* Main content - Pricing */
+/* Main content - Home - Pricing section */
 
 #pricing-section {
     display: flex;
@@ -189,11 +189,27 @@ table, th, td {
     font-size: 70%;
 }
 
-/* Main content - Location */
+/* Main content - Home - Location section */
 #location-section-start-padding {
     background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
+}
+
+#location {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #find-us {
+    padding: 0.2rem 0 0.2rem 0;
+} */
+
+.address {
+    font-size: 90%;
+    padding: 0 0 0.2rem 0;
 }
 
 /* #location-section h3{
@@ -202,14 +218,26 @@ table, th, td {
     text-align: center;
 } */
 
+/* Main content - Home - End of homepage section */
 #end-of-homepage-image {
     background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
-    /* background-size: cover;
-    background-position: center 2%; */
-    width: 100%;
     height: 15rem;
-    border: 2px solid black;
 }
+
+/* #end-of-homepage-image img {
+    width: 100%;
+    height: 100%;
+} */
+
+.quote {
+    font-size: 90%;
+    margin: 0.25rem 0 0.25rem 0;
+}
+
+#quote-source {
+    text-align: right;
+}
+
 
 /* Main content - Contact Us */
 
