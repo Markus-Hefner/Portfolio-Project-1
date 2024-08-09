@@ -265,6 +265,12 @@ table, th, td {
     background-color: lightgreen;
 }
 
+#end-of-contact-us-page-image {
+    background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+    background-position: top;
+    height: 15rem;   
+}
+
 
 
 /* Footer */
