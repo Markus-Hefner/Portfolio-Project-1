@@ -21,6 +21,12 @@ h1, h2, h3, h4 {
     font-family: Raleway, sans-serif;
 }
 
+h3 {
+    font-size: 110%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -108,14 +114,14 @@ main {
 
 .sections-general {
     margin: 0.75rem 5% 0.75rem 5%;
-    border: 2px solid black;
+    border: 2px solid black; /* This has to be removed later */
 }
 
-#why-section h3 {
+/* #why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
-}
+} */
 
 #why-list {
     padding-left: 1.25rem;
@@ -155,11 +161,11 @@ main {
     height: 7rem;
 }
 
-#price-heading h3 {
+/* #price-heading h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
-}
+} */
 
 #price-table {
     border:#272727;
@@ -190,11 +196,11 @@ table, th, td {
     height: 7rem;
 }
 
-#location-section h3{
+/* #location-section h3{
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
-}
+} */
 
 /* Main content - Contact Us */
 
