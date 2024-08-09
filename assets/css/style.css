@@ -84,7 +84,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 7rem;
-    min-height: 2000px; This has to be removed later
+    min-height: 2000px; /* This has to be removed later */
 }
 
 /* Main content - Home - Banner section */
@@ -105,11 +105,13 @@ main {
 }
 
 /* Main content - Home - Why section */
-#why {
-    margin: 0.75rem 5% 0.75rem 5%;;
+
+.sections-general {
+    margin: 0.75rem 5% 0.75rem 5%;
+    border: 2px solid black;
 }
 
-#why h3 {
+#why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
@@ -119,7 +121,7 @@ main {
     padding-left: 1.25rem;
 }
 
-#why ul li {
+#why-list li {
     margin: 0.125rem 0 0.25rem 0;
     font-size: 90%;
 }
@@ -142,7 +144,6 @@ main {
 /* Main content - Pricing */
 
 #pricing-section {
-    margin: 0.75rem 5% 0.75rem 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,15 +184,6 @@ table, th, td {
 }
 
 /* Main content - Location */
-
-/* #location-section {
-    padding-top: 7rem;
-} */
-
-#location-section {
-    margin: 10px 5% 10px 5%;
-}
-
 #location-section-start-padding {
     background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
     width: 100%;
