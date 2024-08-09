@@ -21,6 +21,12 @@ h1, h2, h3, h4 {
     font-family: Raleway, sans-serif;
 }
 
+h2 {
+    font-size: 120%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+}
+
 h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
@@ -98,11 +104,11 @@ main {
     width: 100%;
 }
 
-#banner h2 {
+/* #banner h2 {
     font-size: 120%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
-}
+} */
 
 #hero-image {
     background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
@@ -247,12 +253,17 @@ table, th, td {
     margin: 10px 5% 10px 5%;
 }
 
+#signup-form label {
+    font-size: 90%;
+}
+
 .signup-input {
     border:#272727;
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    padding: 1px;
+    padding: 0.2rem;
+    margin: 0.125rem 0 0.5rem 0;
 }
 
 #submit {
@@ -260,9 +271,14 @@ table, th, td {
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    padding: 10px;
+    /* padding: 0.625rem; */
     width: fit-content;
-    background-color: lightgreen;
+    background-color: whitesmoke;
+    align-self: center;
+}
+
+#submit-button {
+    padding: 0.625rem;
 }
 
 #end-of-contact-us-page-image {
