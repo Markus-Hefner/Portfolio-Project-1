@@ -299,6 +299,12 @@ table, th, td {
 /* Footer */
 footer {
     background-color: whitesmoke;
+    width: 100%;
+}
+
+#social {
+    width 100%;
+    padding: 10px 0 10px 0;
 }
 
 #visit-us {
@@ -306,14 +312,19 @@ footer {
     justify-content: center;
 }
 
-#social {
+#visit-us h4 {
+    font-size: 100%;
+    padding-bottom: 0.25rem;
+}
+
+#social-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 1rem;
 }
 
-#social a {
+#social-links a {
     color:#272727;
     text-decoration: none;
 }
