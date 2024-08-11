@@ -69,11 +69,7 @@ header {
     height: 2rem;
     background-color: whitesmoke;
     display: flex;
-    align-items: center;
-}
-
-nav {
-    width: 100%;
+    justify-content: center;
 }
 
 nav ul {
@@ -140,22 +136,6 @@ main {
     font-size: 90%;
 }
 
-#free-trial-button {
-    border:#272727;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    margin: 10%;
-    background-color: whitesmoke;
-}
-
-#free-trial {
-    color:#272727;
-    text-decoration: none;
-}
-
 /* Main content - Home - Pricing section */
 
 #pricing-section {
@@ -196,6 +176,22 @@ table, th, td {
 #lesson-frquency {
     margin-top: 20px;
     font-size: 70%;
+}
+
+#free-trial-button {
+    border:#272727;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    background-color: whitesmoke;
+}
+
+#free-trial {
+    color:#272727;
+    text-decoration: none;
 }
 
 /* Main content - Home - Location section */
