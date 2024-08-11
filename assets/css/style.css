@@ -185,8 +185,9 @@ table, th, td {
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    margin: 10%;
+    margin: 1.5rem 0 1.5rem 0;
     background-color: whitesmoke;
+    padding: 0.5rem;
 }
 
 #free-trial {
