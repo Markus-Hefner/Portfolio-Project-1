@@ -125,7 +125,7 @@ main {
     margin: 1.5rem 5% 1.5rem 5%;
     /* border: 2px solid black; */
     /* This has to be removed later */
-    
+
 }
 
 /* #why-section h3 {
@@ -545,7 +545,8 @@ footer {
 } */
 
     .quote {
-        font-size: 100%; /* change */
+        font-size: 100%;
+        /* change */
         margin: 0.25rem 0 0.25rem 0;
     }
 
@@ -555,6 +556,48 @@ footer {
 
     #quote-source {
         text-align: right;
+    }
+
+    /* Main content - Contact Us */
+
+    #signup-form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5% 10px 5%;
+    }
+
+    #signup-form label {
+        font-size: 100%; /* change */
+    }
+
+    .signup-input {
+        border: #272727;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 0.2rem;
+        margin: 0.125rem 0 0.5rem 0;
+    }
+
+    #submit {
+        border: #272727;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        /* padding: 0.625rem; */
+        width: fit-content;
+        background-color: whitesmoke;
+        align-self: center;
+    }
+
+    #submit-button {
+        padding: 0.625rem;
+    }
+
+    #end-of-contact-us-page-image {
+        background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+        background-position: top;
+        height: 15rem;
     }
 
     /* header {
