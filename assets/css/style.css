@@ -183,8 +183,8 @@ table, th, td {
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */ /* can be deleted */
     margin: 1.5rem 0 1.5rem 0;
     background-color: whitesmoke;
     padding: 0.5rem;
