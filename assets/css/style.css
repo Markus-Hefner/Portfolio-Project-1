@@ -122,8 +122,8 @@ main {
 /* Main content - Home - Why section */
 
 .sections-general {
-    margin: 0.75rem 5% 0.75rem 5%;
-    /* border: 2px solid black; */ /* This has to be removed later */
+    margin: 1.5rem 5% 1.5rem 5%;
+    border: 2px solid black; /* This has to be removed later */
     
 }
 
@@ -412,7 +412,7 @@ footer {
     /* Main content - Home - Why section */
 
     .sections-general {
-        margin: 0.75rem 5% 0.75rem 5%;
+        margin: 1.5rem 5% 1.5rem 5%;
         /* border: 2px solid black; /* This has to be removed later */
         */
     }
