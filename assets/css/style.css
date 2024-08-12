@@ -70,6 +70,7 @@ header {
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -77,7 +78,6 @@ nav ul {
     width: 100%;
     justify-content: center;
     list-style-type: none;
-    padding: 5px;
     flex-wrap: wrap;
 }
 
