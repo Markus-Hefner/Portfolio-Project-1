@@ -168,3 +168,9 @@ Users who will visit this site will find what the school is about, what differen
 
 - Footer
   - In the footer user will find all the social media icons which link to their respective social media plattform on which the school is.
+
+## Future Features
+
+- In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the location section.
+- To inform users/parents/guardians of the school's activities a "Events" page would be helpful. By showing the school's work in the form of concerts and the like it will enhance the school's visibility in the public and thus driving further client aquistion.
+- A dedicated area for enrolled students which is accessible via a dedicated sign in page/window where students and their parents/guardians will find lesson dates, homework info and the scores/exercises will make it easier for the parents/guardians to see the progress their kids make and help the kids out in case the lost some music sheets.
