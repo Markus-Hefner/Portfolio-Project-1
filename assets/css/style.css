@@ -339,7 +339,7 @@ footer {
 
 
 
-/* media query for later */
+/* Media query large devices 768px and up */
 @media screen and (min-width: 768px) {
     h2 {
         font-size: 144%;
@@ -583,7 +583,8 @@ footer {
     #submit-button {
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
-        font-size: 100%; /* change */
+        font-size: 100%;
+        /* change */
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -602,20 +603,286 @@ footer {
         height: 15rem;
     }
 
-    /* header {
-        background-color: lightgreen;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;    
+}
+
+/* Media query large devices 992px and up */
+@media screen and (min-width: 992px) {
+    h2 {
+        font-size: 144%;
+        /* change */
+        padding: 1rem 0.25rem 0.25rem 0.25rem;
+        text-align: center;
     }
 
-    nav li {
-        display: inline;
+    h3 {
+        font-size: 132%;
+        /* change */
+        padding: 1rem 0.25rem 0.25rem 0.25rem;
+        text-align: center;
     }
-    
+
+    #title-section {
+        background-color: whitesmoke;
+        /* Fallback colour */
+        background: url(../images/pexels-dima-pavlenko-1200758-5809453.jpg) no-repeat center center/cover;
+        height: 12rem;
+        /* change */
+        background-size: 160%;
+    }
+
+    #title-section h1 {
+        display: flex;
+        flex-direction: column;
+        /* change */
+        font-size: 5rem;
+        /* change */
+        color: #272727;
+        /* width: 6rem;
+        height: 6rem; */
+        position: absolute;
+        left: 31%;
+        /* change */
+        align-items: end;
+        /* change */
+        padding: 0.2rem 0 0 0;
+    }
+
+    #title-section p {
+        padding: 0 0.5rem 0 0.5rem;
+        /* change */
+    }
+
+    /* Header - Navbar */
+    #navbar-section {
+        height: 3rem;
+        /* change */
+    }
+
     nav li a {
+        font-size: 100%;
+    }
+
+    /* Main content - General */
+    main {
+        background-color: #f8f7a2;
+        /* Make main element take up any surplus space to push footer down */
+        flex: 1 0 auto;
+        margin-top: 15rem;
+        /* change */
+        /* min-height: 2000px; /* This has to be removed later */
+        */
+    }
+
+    /* Main content - Home - Banner section */
+    #banner {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* #banner h2 {
+    font-size: 120%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+} */
+
+    #hero-image {
+        background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 14rem;
+        /* change */
+    }
+
+    /* Main content - Home - Why section */
+
+    .sections-general {
+        margin: 1.5rem 5% 1.5rem 5%;
+        /* border: 2px solid black; /* This has to be removed later */
+        */
+    }
+
+    /* #why-section h3 {
+    font-size: 110%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+} */
+
+    #why-list {
+        padding-left: 1.25rem;
+    }
+
+    #why-list li {
+        margin: 0.125rem 0 0.25rem 0;
+        font-size: 100%;
+        /* change */
+    }
+
+    /* Main content - Home - Pricing section */
+
+    #pricing-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pricing-section-start-padding {
+        background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 8.3rem;
+        /* change */
+    }
+
+    /* #price-heading h3 {
+    font-size: 110%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+} */
+
+    #price-table {
+        border: #272727;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        width: fit-content;
+    }
+
+    table,
+    th,
+    td {
+        padding: 2px;
+        border: #272727;
+        border-width: 1px;
+        border-style: solid;
+        border-collapse: collapse;
+        font-size: 100%;
+        /* change */
+    }
+
+    #lesson-frquency {
+        margin-top: 20px;
+        font-size: 84%;
+        /* change */
+        width: 45ch;
+        /* change/add */
+    }
+
+    #free-trial {
+        border: #272727;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 5px;
+        /* display: flex;
+    justify-content: center; */
+        /* can be deleted */
+        margin: 1.8rem 0 0.6rem 0;
+        /* change */
+        background-color: whitesmoke;
+        padding: 0.5rem;
+    }
+
+    #free-trial-button {
+        color: #272727;
         text-decoration: none;
-        color: #f8f7a2;
-    } */
+    }
+
+    /* Main content - Home - Location section */
+    #location-section-start-padding {
+        background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 8.3rem;
+        /* change */
+    }
+
+    #location {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* #find-us {
+    padding: 0.2rem 0 0.2rem 0;
+} */
+
+    .address {
+        font-size: 100%;
+        /* change */
+        padding: 0 0 0.2rem 0;
+    }
+
+    /* #location-section h3{
+    font-size: 110%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+} */
+
+    /* Main content - Home - End of homepage section */
+    #end-of-homepage-image {
+        background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
+        height: 18rem;
+    }
+
+    /* #end-of-homepage-image img {
+    width: 100%;
+    height: 100%;
+} */
+
+    .quote {
+        font-size: 100%;
+        /* change */
+        margin: 0.25rem 0 0.25rem 0;
+    }
+
+    #quotation {
+        text-align: center;
+    }
+
+    #quote-source {
+        text-align: right;
+    }
+
+    /* Main content - Contact Us */
+
+    #signup-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15% 0 15%;
+    }
+
+    #signup-form label {
+        font-size: 100%;
+        /* change */
+    }
+
+    .signup-input {
+        border: #272727;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 0.2rem;
+        margin: 0.125rem 0 0.5rem 0;
+    }
+
+    #submit-button {
+        padding: 0.625rem;
+        font-family: 'Merriweather', serif;
+        font-size: 100%;
+        /* change */
+        border: #272727;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        /* padding: 0.625rem; */
+        width: fit-content;
+        margin: 1.8rem 0 0.6rem 0;
+        /* change */
+        background-color: whitesmoke;
+        align-self: center;
+    }
+
+    #end-of-contact-us-page-image {
+        background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+        background-position: top;
+        height: 15rem;
+    }
 }
