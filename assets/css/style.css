@@ -580,7 +580,10 @@ footer {
         margin: 0.125rem 0 0.5rem 0;
     }
 
-    #submit {
+    #submit-button {
+        padding: 0.625rem;
+        font-family: 'Merriweather', serif;
+        font-size: 100%; /* change */
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -591,12 +594,6 @@ footer {
         /* change */
         background-color: whitesmoke;
         align-self: center;
-    }
-
-    #submit-button {
-        padding: 0.625rem;
-        font-family: 'Merriweather', serif;
-        font-size: 100%; /* change */
     }
 
     #end-of-contact-us-page-image {
