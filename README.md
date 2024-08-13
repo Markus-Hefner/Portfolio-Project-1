@@ -137,7 +137,7 @@ Happy coding!
 
 # Kid's Drums
 
-Kid's Drums is a drum school for children aged 5-10 years since there are very few drum school who are specialized on this target audience. They curicullum and teaching style is espcially tailored to the learning style of kids that age.
+Kid's Drums is a drum school for children aged 5-10 years since there are very few drum school who are specialized on this target audience. They curicullum and teaching style is espcially tailored to the learning style of kids that age. 5-10 years was chosen because in Germany it roughly spans the time of elementary school (including the last year of kindergarten) to which the learning system is most applicable.
 
 Users who will visit this site will find what the school is about, what differences to more traditional drum schools are as well as pricing, location and, of course, a contact form.
 
@@ -152,6 +152,9 @@ Users who will visit this site will find what the school is about, what differen
 - The Banner Section
   - The Banner Section gives the a clear, one sentence statement who the school is for.
   - It also provides a hero image to set the tone for the website.
+
+- The Why Section
+  - With a simple bullet point list the Why section states why this school is the right school for kids between the ages 5 and 10.
 
 - The Pricing Section
   - Here interested parents/guardians find information about who much the different durations of the lessons will cost them per month.
