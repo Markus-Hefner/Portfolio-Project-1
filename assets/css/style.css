@@ -279,7 +279,11 @@ td {
     margin: 0.125rem 0 0.5rem 0;
 }
 
-#submit {
+#submit-button {
+    padding: 0.5rem;
+    font-family: 'Merriweather', serif;
+    font-size: 90%;
+    align-self: center;
     border: #272727;
     border-width: 2px;
     border-style: solid;
@@ -289,12 +293,6 @@ td {
     margin: 1.5rem 0 0.5rem 0;
     background-color: whitesmoke;
     align-self: center;
-}
-
-#submit-button {
-    padding: 0.5rem;
-    font-family: 'Merriweather', serif;
-    font-size: 90%;
 }
 
 #end-of-contact-us-page-image {
