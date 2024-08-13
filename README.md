@@ -141,4 +141,12 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 
 Users who will visit this site will find what the school is about, what differences to more traditional drum schools are as well as pricing, location and, of course, a contact form.
 
-## 
+## Features
+- The Header
+  - The user will immediately see the school's name.
+
+- Navigation
+  - Below the header the user will find navbar links for "Home", "Pricing", "Location" and "Contact Us".
+  - While "Home", "Pricing" and "Location" are all on the same page, "Contact Us" is a another page. This is because given that the information on every page would be too sparse to justify rendering a new page.
+
+- 
