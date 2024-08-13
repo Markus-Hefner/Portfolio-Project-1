@@ -485,7 +485,7 @@ footer {
         /* change/add */
     }
 
-    #free-trial-button {
+    #free-trial {
         border: #272727;
         border-style: solid;
         border-width: 2px;
@@ -499,7 +499,7 @@ footer {
         padding: 0.5rem;
     }
 
-    #free-trial {
+    #free-trial-button {
         color: #272727;
         text-decoration: none;
     }
@@ -569,7 +569,8 @@ footer {
     }
 
     #signup-form label {
-        font-size: 100%; /* change */
+        font-size: 100%;
+        /* change */
     }
 
     .signup-input {
@@ -588,12 +589,16 @@ footer {
         border-radius: 5px;
         /* padding: 0.625rem; */
         width: fit-content;
+        margin: 1.8rem 0 0.6rem 0;
+        /* change */
         background-color: whitesmoke;
         align-self: center;
     }
 
     #submit-button {
         padding: 0.625rem;
+        font-family: 'Merriweather', serif;
+        font-size: 100%; /* change */
     }
 
     #end-of-contact-us-page-image {
