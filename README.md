@@ -156,4 +156,15 @@ Users who will visit this site will find what the school is about, what differen
 - The Pricing Section
   - Here interested parents/guardians find information about who much the different durations of the lessons will cost them per month.
   - Furthermore they informed that the lessons will take place only outside the school holidays.
-  - To speed up the registration process the user will also find a direct link the contact us form.
+  - To speed up the registration process users will also find a direct link the contact us form and encourages them to take a trial lesson which is for free.
+
+- The Location Section
+  - User will find the address of the school.
+
+- The Contact Us Page
+  - The Contact Us Page presents the user with a form to provide the necessary information.
+  - Everything but the phone number are required.
+  - The "Submit"-button text is altered to "Count me in!" for it's abiguous meaning: "Count me in!" as in "I'm in" but also "Count me in" like when counting someone in before playing a song. This fit nice with the musical nature of a drum school.
+
+- Footer
+  - In the footer user will find all the social media icons which link to their respective social media plattform on which the school is.
