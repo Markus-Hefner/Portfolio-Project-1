@@ -129,3 +129,16 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+
+
+---
+
+# Kid's Drums
+
+Kid's Drums is a drum school for children aged 5-10 years since there are very few drum school who are specialized on this target audience. They curicullum and teaching style is espcially tailored to the learning style of kids that age.
+
+Users who will visit this site will find what the school is about, what differences to more traditional drum schools are as well as pricing, location and, of course, a contact form.
+
+## 
