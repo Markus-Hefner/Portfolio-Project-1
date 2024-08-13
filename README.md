@@ -174,3 +174,13 @@ Users who will visit this site will find what the school is about, what differen
 - In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the location section.
 - To inform users/parents/guardians of the school's activities a "Events" page would be helpful. By showing the school's work in the form of concerts and the like it will enhance the school's visibility in the public and thus driving further client aquistion.
 - A dedicated area for enrolled students which is accessible via a dedicated sign in page/window where students and their parents/guardians will find lesson dates, homework info and the scores/exercises will make it easier for the parents/guardians to see the progress their kids make and help the kids out in case the lost some music sheets.
+
+## Typography and Colour Schemes
+
+- Typography
+  - I used the Raleway and Merriweather fonts since I wanted it to be a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids. However, since it's still adults who will visit the site since they want to find a drum school for kids I didn't want to carry it too far with the embellishments.
+
+- Colour Schemes
+  - The dominant colours are whitesmoke and a shade of beige. They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
+  Luckily I also was able to find pictures on pexels.com of a drum kit with a similar colour which I then used as dividers between the sections on the homepage as well as on the Contact-Us page
+  - The hero image as well as the end-of-page image were chosen firstly because the show kids playing drums and secondly because the background was white-ish which works nicely with the navbar and footer colour of whitesmoke.
