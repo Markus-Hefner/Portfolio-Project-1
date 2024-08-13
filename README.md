@@ -149,4 +149,11 @@ Users who will visit this site will find what the school is about, what differen
   - Below the header the user will find navbar links for "Home", "Pricing", "Location" and "Contact Us".
   - While "Home", "Pricing" and "Location" are all on the same page, "Contact Us" is a another page. This is because given that the information on every page would be too sparse to justify rendering a new page.
 
-- 
+- The Banner Section
+  - The Banner Section gives the a clear, one sentence statement who the school is for.
+  - It also provides a hero image to set the tone for the website.
+
+- The Pricing Section
+  - Here interested parents/guardians find information about who much the different durations of the lessons will cost them per month.
+  - Furthermore they informed that the lessons will take place only outside the school holidays.
+  - To speed up the registration process the user will also find a direct link the contact us form.
