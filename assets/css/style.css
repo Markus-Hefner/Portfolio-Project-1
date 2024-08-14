@@ -105,6 +105,7 @@ main {
 /* Main content - Home - Banner section */
 #banner {
     width: 100%;
+    padding: 0 5% 0 5%;
 }
 
 /* #banner h2 {
@@ -410,6 +411,24 @@ footer {
         */
     }
 
+    /* Main content - Home - Banner section */
+    #banner {
+        width: 100%;
+        padding: 0 5% 0 5%;
+    }
+
+    /* #banner h2 {
+    font-size: 120%;
+    padding: 1rem 0.25rem 0.25rem 0.25rem;
+    text-align: center;
+} */
+
+    #hero-image {
+        background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
+        width: 100%;
+        height: 10rem;
+    }
+
     /* Main content - Home - Why section */
 
     .sections-general {
@@ -675,9 +694,8 @@ footer {
 
     /* Main content - Home - Banner section */
     #banner {
-        display: flex;
         width: 100%;
-        align-items: center;
+        padding: 0 5% 0 5%;
     }
 
     /* #banner h2 {
