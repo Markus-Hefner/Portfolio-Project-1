@@ -152,7 +152,7 @@ main {
     align-items: center;
 }
 
-#pricing-section-start-padding {
+#pricing-image {
     background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
@@ -201,13 +201,13 @@ td {
     padding: 0.5rem;
 }
 
-#free-trial-button {
+#trial-button {
     color: #272727;
     text-decoration: none;
 }
 
 /* Main content - Home - Location section */
-#location-section-start-padding {
+#location-image {
     background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
@@ -236,12 +236,12 @@ td {
 } */
 
 /* Main content - Home - End of homepage section */
-#end-of-homepage-image {
+#home-end-image {
     background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
     height: 15rem;
 }
 
-/* #end-of-homepage-image img {
+/* #home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -296,7 +296,7 @@ td {
     align-self: center;
 }
 
-#end-of-contact-us-page-image {
+#contact-end-image {
     background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
     background-position: top;
     height: 15rem;
@@ -461,7 +461,7 @@ footer {
         align-items: center;
     }
 
-    #pricing-section-start-padding {
+    #pricing-image {
         background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
@@ -516,13 +516,13 @@ footer {
         padding: 0.5rem;
     }
 
-    #free-trial-button {
+    #trial-button {
         color: #272727;
         text-decoration: none;
     }
 
     /* Main content - Home - Location section */
-    #location-section-start-padding {
+    #location-image {
         background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
@@ -553,12 +553,12 @@ footer {
 } */
 
     /* Main content - Home - End of homepage section */
-    #end-of-homepage-image {
+    #home-end-image {
         background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
-    /* #end-of-homepage-image img {
+    /* #home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -616,7 +616,7 @@ footer {
         align-self: center;
     }
 
-    #end-of-contact-us-page-image {
+    #contact-end-image {
         background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
@@ -744,7 +744,7 @@ footer {
         align-items: center;
     }
 
-    #pricing-section-start-padding {
+    #pricing-image {
         background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
@@ -799,7 +799,7 @@ footer {
         padding: 0.5rem;
     }
 
-    #free-trial-button {
+    #trial-button {
         color: #272727;
         text-decoration: none;
     }
@@ -809,7 +809,7 @@ footer {
         scroll-margin-top: 15rem;
     }
 
-    #location-section-start-padding {
+    #location-image {
         background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
@@ -840,12 +840,12 @@ footer {
 } */
 
     /* Main content - Home - End of homepage section */
-    #end-of-homepage-image {
+    #home-end-image {
         background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
-    /* #end-of-homepage-image img {
+    /* #home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -903,7 +903,7 @@ footer {
         align-self: center;
     }
 
-    #end-of-contact-us-page-image {
+    #contact-end-image {
         background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
