@@ -698,16 +698,16 @@ footer {
         padding: 0 5% 0 5%;
     }
 
-    /* #banner h2 {
-    font-size: 120%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
+    #banner h2 {
+        /* font-size: 120%; */
+        /* padding-bottom: 1rem; */
+        /* text-align: center; */
+    }
 
     #hero-image {
         background: url(../images/hero-top.jpg) no-repeat center center/cover;
         width: 100%;
-        height: 14rem;
+        height: 16rem;
         /* change */
     }
 
@@ -719,6 +719,15 @@ footer {
         */
     }
 
+    #why-section {
+        display: flex;
+        /* change/add */
+        flex-direction: column;
+        /* change/add */
+        align-items: center;
+        /* change/add */
+    }
+
     /* #why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
@@ -727,6 +736,8 @@ footer {
 
     #why-list {
         padding-left: 1.25rem;
+        width: 55ch;
+        /* change/add */
     }
 
     #why-list li {
@@ -747,7 +758,7 @@ footer {
     #pricing-image {
         background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
-        height: 8.3rem;
+        height: 15rem;
         /* change */
     }
 
@@ -812,7 +823,7 @@ footer {
     #location-image {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
-        height: 8.3rem;
+        height: 15rem;
         /* change */
     }
 
