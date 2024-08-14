@@ -48,7 +48,7 @@ header {
 #title-section {
     background-color: #f5f5f5;
     /* Fallback colour */
-    background: url(../images/pexels-dima-pavlenko-1200758-5809453.jpg) no-repeat center center/cover;
+    background: url(../images/snare-top.jpg) no-repeat center center/cover;
     height: 5rem;
     background-size: 160%;
 }
@@ -115,7 +115,7 @@ main {
 } */
 
 #hero-image {
-    background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
+    background: url(../images/hero-top.jpg) no-repeat center center/cover;
     width: 100%;
     height: 10rem;
 }
@@ -153,7 +153,7 @@ main {
 }
 
 #pricing-image {
-    background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
+    background: url(../images/drumset-top.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
 }
@@ -208,7 +208,7 @@ td {
 
 /* Main content - Home - Location section */
 #location-image {
-    background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
+    background: url(../images/drumset-side.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
 }
@@ -237,7 +237,7 @@ td {
 
 /* Main content - Home - End of homepage section */
 #home-end-image {
-    background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
+    background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
     height: 15rem;
 }
 
@@ -297,7 +297,7 @@ td {
 }
 
 #contact-end-image {
-    background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+    background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
     background-position: top;
     height: 15rem;
 }
@@ -359,7 +359,7 @@ footer {
     #title-section {
         background-color: #f5f5f5;
         /* Fallback colour */
-        background: url(../images/pexels-dima-pavlenko-1200758-5809453.jpg) no-repeat center center/cover;
+        background: url(../images/snare-top.jpg) no-repeat center center/cover;
         height: 6rem;
         /* change */
         background-size: 160%;
@@ -424,7 +424,7 @@ footer {
 } */
 
     #hero-image {
-        background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
+        background: url(../images/hero-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 10rem;
     }
@@ -462,7 +462,7 @@ footer {
     }
 
     #pricing-image {
-        background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
+        background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
@@ -523,7 +523,7 @@ footer {
 
     /* Main content - Home - Location section */
     #location-image {
-        background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
+        background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
@@ -554,7 +554,7 @@ footer {
 
     /* Main content - Home - End of homepage section */
     #home-end-image {
-        background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
+        background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
@@ -617,7 +617,7 @@ footer {
     }
 
     #contact-end-image {
-        background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+        background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
     }
@@ -643,7 +643,7 @@ footer {
     #title-section {
         background-color: #f5f5f5;
         /* Fallback colour */
-        background: url(../images/pexels-dima-pavlenko-1200758-5809453.jpg) no-repeat center center/cover;
+        background: url(../images/snare-top.jpg) no-repeat center center/cover;
         height: 12rem;
         /* change */
         background-size: 160%;
@@ -705,7 +705,7 @@ footer {
 } */
 
     #hero-image {
-        background: url(../images/pexels-cottonbro-9644677.jpg) no-repeat center center/cover;
+        background: url(../images/hero-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 14rem;
         /* change */
@@ -745,7 +745,7 @@ footer {
     }
 
     #pricing-image {
-        background: url(../images/pexels-dima-pavlenko-1200758-5809457.jpg) no-repeat center center/cover;
+        background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
@@ -810,7 +810,7 @@ footer {
     }
 
     #location-image {
-        background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
+        background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
@@ -841,7 +841,7 @@ footer {
 
     /* Main content - Home - End of homepage section */
     #home-end-image {
-        background: url(../images/pexels-cottonbro-9644671.jpg) no-repeat center 35% / cover;
+        background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
@@ -904,7 +904,7 @@ footer {
     }
 
     #contact-end-image {
-        background: url(../images/pexels-cottonbro-4087992.jpg) no-repeat center 35% / cover;
+        background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
     }
