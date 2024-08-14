@@ -720,6 +720,7 @@ footer {
     /* Main content - Home - Pricing section */
 
     #pricing-section {
+        scroll-margin-top: 15rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -786,6 +787,10 @@ footer {
     }
 
     /* Main content - Home - Location section */
+    #location-section {
+        scroll-margin-top: 15rem;
+    }
+
     #location-section-start-padding {
         background: url(../images/pexels-dima-pavlenko-1200758-5809460.jpg) no-repeat center center/cover;
         width: 100%;
