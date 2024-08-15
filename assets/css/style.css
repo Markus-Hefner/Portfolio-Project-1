@@ -262,6 +262,12 @@ td {
 
 /* Main content - Contact Us */
 
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -297,8 +303,8 @@ td {
 }
 
 .contact-end-image {
-    background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
-    background-position: top;
+    background: url(../images/hero-3.jpg) no-repeat center 35% / cover;
+    background-position: 50% 25%;
     height: 15rem;
 }
 
@@ -579,6 +585,12 @@ footer {
 
     /* Main content - Contact Us */
 
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
     .signup-form {
         display: flex;
         flex-direction: column;
@@ -617,9 +629,11 @@ footer {
     }
 
     .contact-end-image {
-        background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
-        background-position: top;
-        height: 15rem;
+        background: url(../images/hero-3.jpg) no-repeat center 35% / cover;
+        background-position: 50% 25%;
+        height: 25rem; /* change */
+        align-self: center; /* change/add */
+        width: 60%; /* change/add */
     }
 
 }
@@ -881,6 +895,12 @@ footer {
 
     /* Main content - Contact Us */
 
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
     .signup-form {
         display: flex;
         flex-direction: column;
@@ -919,8 +939,10 @@ footer {
     }
 
     .contact-end-image {
-        background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
-        background-position: top;
-        height: 15rem;
+        background: url(../images/hero-3.jpg) no-repeat center 35% / cover;
+        background-position: 50% 25%;
+        align-self: center;
+        height: 30rem; /* change */
+        width: 60%; /* change/add */
     }
 }
