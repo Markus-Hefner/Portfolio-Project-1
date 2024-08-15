@@ -291,7 +291,6 @@ td {
     display: flex;
     flex-direction: column;
     margin: 0 5% 1.5rem 5%;
-    /* align-items: center; */
 }
 
 .signup-form {
@@ -634,7 +633,8 @@ footer {
     .signup-form {
         display: flex;
         flex-direction: column;
-        padding: 0 15% 0 15%;
+        padding: 0 20% 0 20%;
+        /* change/add */
     }
 
     .signup-form label {
@@ -955,7 +955,8 @@ footer {
     .signup-form {
         display: flex;
         flex-direction: column;
-        padding: 0 15% 0 15%;
+        padding: 0 25% 0 25%;
+        /* change */
     }
 
     .signup-form label {
@@ -1253,7 +1254,8 @@ footer {
     .signup-form {
         display: flex;
         flex-direction: column;
-        padding: 0 15% 0 15%;
+        padding: 0 30% 0 30%;
+        /* change */
     }
 
     .signup-form label {
@@ -1290,5 +1292,15 @@ footer {
         height: 30rem;
         align-self: center;
         width: 60%;
+    }
+}
+
+/* Media query large devices 1400px and up */
+@media screen and (min-width: 1400px) {
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35% 0 35%;
+    /* change */
     }
 }
