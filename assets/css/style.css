@@ -754,6 +754,8 @@ footer {
     .link-headings {
         background-color: #f5f5f5;
         margin-bottom: 0.5rem;
+        width:fit-content;
+        align-self: center;
     } /* change/add */
 
     .why-section {
