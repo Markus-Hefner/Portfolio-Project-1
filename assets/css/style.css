@@ -58,8 +58,8 @@ header {
     flex-direction: column;
     font-size: 2rem;
     color: #272727;
-    /* width: 5rem;
-    height: 5rem; */
+    /* width: 5rem; */
+    height: 5rem;
     position: absolute;
     left: 15%;
     align-items: end;
@@ -657,7 +657,7 @@ footer {
         /* change */
         color: #272727;
         /* width: 6rem; */
-        height: 6rem;
+        height: 12rem;
         position: absolute;
         left: 14%;
         /* change */
