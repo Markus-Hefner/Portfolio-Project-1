@@ -201,26 +201,26 @@ td {
     padding: 0.5rem;
 }
 
-#trial-button {
+.trial-button {
     color: #272727;
     text-decoration: none;
 }
 
 /* Main content - Home - Location section */
-#location-image {
+.location-image {
     background: url(../images/drumset-side.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
 }
 
-#location {
+.location {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* #find-us {
+/* .find-us {
     padding: 0.2rem 0 0.2rem 0;
 } */
 
@@ -229,19 +229,19 @@ td {
     padding: 0 0 0.2rem 0;
 }
 
-/* #location-section h3{
+/* .location-section h3{
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
 /* Main content - Home - End of homepage section */
-#home-end-image {
+.home-end-image {
     background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
     height: 15rem;
 }
 
-/* #home-end-image img {
+/* .home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -251,11 +251,11 @@ td {
     margin: 0.25rem 0 0.25rem 0;
 }
 
-#quotation {
+.quotation {
     text-align: center;
 }
 
-#quote-source {
+.quote-source {
     text-align: right;
 }
 
@@ -310,29 +310,29 @@ footer {
     width: 100%;
 }
 
-#social {
+.social {
     width 100%;
     padding: 10px 0 10px 0;
 }
 
-#visit-us {
+.visit-us {
     display: flex;
     justify-content: center;
 }
 
-#visit-us h4 {
+.visit-us h4 {
     font-size: 100%;
     padding-bottom: 0.25rem;
 }
 
-#social-links {
+.social-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-#social-links a {
+.social-links a {
     color: #272727;
     text-decoration: none;
 }
@@ -516,27 +516,27 @@ footer {
         padding: 0.5rem;
     }
 
-    #trial-button {
+    .trial-button {
         color: #272727;
         text-decoration: none;
     }
 
     /* Main content - Home - Location section */
-    #location-image {
+    .location-image {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
     }
 
-    #location {
+    .location {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    /* #find-us {
+    /* .find-us {
     padding: 0.2rem 0 0.2rem 0;
 } */
 
@@ -546,19 +546,19 @@ footer {
         padding: 0 0 0.2rem 0;
     }
 
-    /* #location-section h3{
+    /* .location-section h3{
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
     /* Main content - Home - End of homepage section */
-    #home-end-image {
+    .home-end-image {
         background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
-    /* #home-end-image img {
+    /* .home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -569,11 +569,11 @@ footer {
         margin: 0.25rem 0 0.25rem 0;
     }
 
-    #quotation {
+    .quotation {
         text-align: center;
     }
 
-    #quote-source {
+    .quote-source {
         text-align: right;
     }
 
@@ -810,31 +810,31 @@ footer {
         padding: 0.5rem;
     }
 
-    #trial-button {
+    .trial-button {
         color: #272727;
         text-decoration: none;
     }
 
     /* Main content - Home - Location section */
-    #location-section {
+    .location-section {
         scroll-margin-top: 15rem;
     }
 
-    #location-image {
+    .location-image {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
         height: 15rem;
         /* change */
     }
 
-    #location {
+    .location {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    /* #find-us {
+    /* .find-us {
     padding: 0.2rem 0 0.2rem 0;
 } */
 
@@ -844,19 +844,19 @@ footer {
         padding: 0 0 0.2rem 0;
     }
 
-    /* #location-section h3{
+    /* .location-section h3{
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
     /* Main content - Home - End of homepage section */
-    #home-end-image {
+    .home-end-image {
         background: url(../images/hero-bottom.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
-    /* #home-end-image img {
+    /* .home-end-image img {
     width: 100%;
     height: 100%;
 } */
@@ -867,11 +867,11 @@ footer {
         margin: 0.25rem 0 0.25rem 0;
     }
 
-    #quotation {
+    .quotation {
         text-align: center;
     }
 
-    #quote-source {
+    .quote-source {
         text-align: right;
     }
 
