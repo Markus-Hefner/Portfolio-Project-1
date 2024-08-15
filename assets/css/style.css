@@ -304,7 +304,7 @@ td {
 
 .contact-end-image {
     background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
-        /* background-position: 50% 25%; */
+    /* background-position: 50% 25%; */
     height: 15rem;
 }
 
@@ -635,9 +635,12 @@ footer {
     .contact-end-image {
         background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
         /* background-position: 50% 25%; */
-        height: 25rem; /* change */
-        align-self: center; /* change/add */
-        width: 60%; /* change/add */
+        height: 25rem;
+        /* change */
+        align-self: center;
+        /* change/add */
+        width: 60%;
+        /* change/add */
     }
 
 }
@@ -646,14 +649,12 @@ footer {
 @media screen and (min-width: 992px) {
     h2 {
         font-size: 144%;
-        /* change */
         padding: 1rem 0.25rem 0.25rem 0.25rem;
         text-align: center;
     }
 
     h3 {
         font-size: 132%;
-        /* change */
         padding: 1rem 0.25rem 0.25rem 0.25rem;
         text-align: center;
     }
@@ -670,12 +671,12 @@ footer {
     .title-section h1 {
         display: flex;
         flex-direction: column;
-        /* change */
         font-size: 5rem;
         /* change */
         color: #272727;
         /* width: 6rem; */
         height: 12rem;
+        /* change */
         position: absolute;
         left: 14%;
         /* change */
@@ -686,7 +687,6 @@ footer {
 
     .title-section p {
         padding: 0 0.5rem 0 0.5rem;
-        /* change */
     }
 
     /* Header - Navbar */
@@ -765,7 +765,6 @@ footer {
     .why-list li {
         margin: 0.125rem 0 0.25rem 0;
         font-size: 100%;
-        /* change */
     }
 
     /* Main content - Home - Pricing section */
@@ -809,15 +808,12 @@ footer {
         border-style: solid;
         border-collapse: collapse;
         font-size: 100%;
-        /* change */
     }
 
     .lesson-frquency {
         margin-top: 20px;
         font-size: 84%;
-        /* change */
         width: 45ch;
-        /* change/add */
     }
 
     .free-trial {
@@ -829,7 +825,6 @@ footer {
     justify-content: center; */
         /* can be deleted */
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
         background-color: #f5f5f5;
         padding: 0.5rem;
     }
@@ -842,6 +837,7 @@ footer {
     /* Main content - Home - Location section */
     .location-section {
         scroll-margin-top: 15rem;
+        /* change/add */
     }
 
     .location-image {
@@ -864,7 +860,6 @@ footer {
 
     .address {
         font-size: 100%;
-        /* change */
         padding: 0 0 0.2rem 0;
     }
 
@@ -887,7 +882,6 @@ footer {
 
     .quote {
         font-size: 100%;
-        /* change */
         margin: 0.25rem 0 0.25rem 0;
     }
 
@@ -915,7 +909,6 @@ footer {
 
     .signup-form label {
         font-size: 100%;
-        /* change */
     }
 
     .signup-input {
@@ -931,7 +924,6 @@ footer {
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
-        /* change */
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -939,7 +931,6 @@ footer {
         /* padding: 0.625rem; */
         width: fit-content;
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
         background-color: #f5f5f5;
         align-self: center;
     }
@@ -947,12 +938,14 @@ footer {
     .contact-end-image {
         background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
         /* background-position: 50% 25%; */
+        height: 30rem;
+        /* change */
         align-self: center;
-        height: 30rem; /* change */
-        width: 60%; /* change/add */
+        width: 60%;
     }
+}
 
-    /* Media query large devices 1200px and up */
+/* Media query large devices 1200px and up */
 @media screen and (min-width: 1200px) {
     h2 {
         font-size: 144%;
@@ -962,7 +955,6 @@ footer {
 
     h3 {
         font-size: 132%;
-        /* change */
         padding: 1rem 0.25rem 0.25rem 0.25rem;
         text-align: center;
     }
@@ -972,36 +964,29 @@ footer {
         /* Fallback colour */
         background: url(../images/snare-top.jpg) no-repeat center center/cover;
         height: 12rem;
-        /* change */
         background-size: 160%;
     }
 
     .title-section h1 {
         display: flex;
         flex-direction: column;
-        /* change */
         font-size: 5rem;
-        /* change */
         color: #272727;
         /* width: 6rem; */
         height: 12rem;
         position: absolute;
         left: 14%;
-        /* change */
         align-items: end;
-        /* change */
         padding: 0.2rem 0 0 0;
     }
 
     .title-section p {
         padding: 0 0.5rem 0 0.5rem;
-        /* change */
     }
 
     /* Header - Navbar */
     .navbar-section {
         height: 3rem;
-        /* change */
     }
 
     nav li a {
@@ -1018,7 +1003,6 @@ footer {
         /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
         margin-top: 15rem;
-        /* change */
         /* min-height: 2000px; /* This has to be removed later */
         */
     }
@@ -1039,7 +1023,6 @@ footer {
         background: url(../images/hero-1.jpg) no-repeat center center/cover;
         width: 100%;
         height: 16rem;
-        /* change */
     }
 
     /* Main content - Home - Why section */
@@ -1052,11 +1035,8 @@ footer {
 
     .why-section {
         display: flex;
-        /* change/add */
         flex-direction: column;
-        /* change/add */
         align-items: center;
-        /* change/add */
     }
 
     /* .why-section h3 {
@@ -1068,20 +1048,18 @@ footer {
     .why-list {
         padding-left: 1.25rem;
         width: 55ch;
-        /* change/add */
     }
 
     .why-list li {
         margin: 0.125rem 0 0.25rem 0;
         font-size: 100%;
-        /* change */
     }
 
     /* Main content - Home - Pricing section */
     #pricing {
         scroll-margin-top: 15rem;
     }
-    
+
     .pricing-section {
         display: flex;
         flex-direction: column;
@@ -1092,7 +1070,6 @@ footer {
         background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 15rem;
-        /* change */
     }
 
     /* .price-heading h3 {
@@ -1118,15 +1095,12 @@ footer {
         border-style: solid;
         border-collapse: collapse;
         font-size: 100%;
-        /* change */
     }
 
     .lesson-frquency {
         margin-top: 20px;
         font-size: 84%;
-        /* change */
         width: 45ch;
-        /* change/add */
     }
 
     .free-trial {
@@ -1138,7 +1112,6 @@ footer {
     justify-content: center; */
         /* can be deleted */
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
         background-color: #f5f5f5;
         padding: 0.5rem;
     }
@@ -1157,7 +1130,6 @@ footer {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
         height: 15rem;
-        /* change */
     }
 
     .location {
@@ -1196,7 +1168,6 @@ footer {
 
     .quote {
         font-size: 100%;
-        /* change */
         margin: 0.25rem 0 0.25rem 0;
     }
 
@@ -1224,7 +1195,6 @@ footer {
 
     .signup-form label {
         font-size: 100%;
-        /* change */
     }
 
     .signup-input {
@@ -1240,7 +1210,6 @@ footer {
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
-        /* change */
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -1248,7 +1217,6 @@ footer {
         /* padding: 0.625rem; */
         width: fit-content;
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
         background-color: #f5f5f5;
         align-self: center;
     }
@@ -1257,7 +1225,6 @@ footer {
         background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
         /* background-position: 50% 25%; */
         align-self: center;
-        height: 30rem; /* change */
-        width: 60%; /* change/add */
+        width: 60%;
     }
 }
