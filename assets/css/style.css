@@ -429,6 +429,8 @@ footer {
     nav li a {
         font-size: 100%;
         /* change */
+        padding: 0 0.3rem 0 0.3rem;
+        /* change */
     }
 
     /* Main content - General */
@@ -724,7 +726,10 @@ footer {
     }
 
     nav li a {
-        font-size: 100%;
+        font-size: 110%;
+        /* change */
+        padding: 0 0.4rem 0 0.4rem;
+        /* change */
     }
 
     nav li a:hover {
@@ -1030,7 +1035,10 @@ footer {
     }
 
     nav li a {
-        font-size: 100%;
+        font-size: 115%;
+        /* change */
+        padding: 0 0.5rem 0 0.5rem;
+        /* change */
     }
 
     nav li a:hover {
