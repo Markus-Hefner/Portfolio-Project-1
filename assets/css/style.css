@@ -308,7 +308,11 @@ td {
     height: 15rem;
 }
 
+/* Confimation */
 
+.confimation-message p {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
 
 /* Footer */
 footer {
