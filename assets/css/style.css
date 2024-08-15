@@ -262,12 +262,12 @@ td {
 
 /* Main content - Contact Us */
 
-#signup-form {
+.signup-form {
     display: flex;
     flex-direction: column;
 }
 
-#signup-form label {
+.signup-form label {
     font-size: 90%;
 }
 
@@ -280,7 +280,7 @@ td {
     margin: 0.125rem 0 0.5rem 0;
 }
 
-#submit-button {
+.submit-button {
     padding: 0.5rem;
     font-family: 'Merriweather', serif;
     font-size: 90%;
@@ -296,7 +296,7 @@ td {
     align-self: center;
 }
 
-#contact-end-image {
+.contact-end-image {
     background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
     background-position: top;
     height: 15rem;
@@ -579,13 +579,13 @@ footer {
 
     /* Main content - Contact Us */
 
-    #signup-form {
+    .signup-form {
         display: flex;
         flex-direction: column;
         padding: 0 15% 0 15%;
     }
 
-    #signup-form label {
+    .signup-form label {
         font-size: 100%;
         /* change */
     }
@@ -599,7 +599,7 @@ footer {
         margin: 0.125rem 0 0.5rem 0;
     }
 
-    #submit-button {
+    .submit-button {
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
@@ -616,7 +616,7 @@ footer {
         align-self: center;
     }
 
-    #contact-end-image {
+    .contact-end-image {
         background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
@@ -877,13 +877,13 @@ footer {
 
     /* Main content - Contact Us */
 
-    #signup-form {
+    .signup-form {
         display: flex;
         flex-direction: column;
         padding: 0 15% 0 15%;
     }
 
-    #signup-form label {
+    .signup-form label {
         font-size: 100%;
         /* change */
     }
@@ -897,7 +897,7 @@ footer {
         margin: 0.125rem 0 0.5rem 0;
     }
 
-    #submit-button {
+    .submit-button {
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
@@ -914,7 +914,7 @@ footer {
         align-self: center;
     }
 
-    #contact-end-image {
+    .contact-end-image {
         background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
         background-position: top;
         height: 15rem;
