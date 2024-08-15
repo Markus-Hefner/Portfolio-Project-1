@@ -681,6 +681,10 @@ footer {
         font-size: 100%;
     }
 
+    nav li a:hover {
+        border-bottom: 2px solid #272727;
+    }
+
     /* Main content - General */
     main {
         background-color: #f8f7a2;
