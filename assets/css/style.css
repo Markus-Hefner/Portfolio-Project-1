@@ -539,7 +539,7 @@ footer {
         /* change */
     }
 
-    .location {
+    .location-address {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -736,10 +736,25 @@ footer {
     /* Main content - Home - Why section */
 
     .sections-general {
-        margin: 1.5rem 5% 1.5rem 5%;
+        margin: 0 5% 0 5%;
+        /* change */
         /* border: 2px solid black; /* This has to be removed later */
         */
     }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 0 2%;
+        height: 20rem;
+        flex-basis: 50%;
+    } /* change/add */
+
+    .link-headings {
+        background-color: #f5f5f5;
+        margin-bottom: 0.5rem;
+    } /* change/add */
 
     .why-section {
         display: flex;
@@ -748,13 +763,8 @@ footer {
         /* change/add */
         align-items: center;
         /* change/add */
+        margin-bottom: 2rem;
     }
-
-    /* .why-section h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
     .why-list {
         padding-left: 1.25rem;
@@ -770,19 +780,23 @@ footer {
     /* Main content - Home - Pricing section */
     #pricing {
         scroll-margin-top: 15rem;
+        /* change/add */
     }
 
     .pricing-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        /* change */
         align-items: center;
     }
 
     .pricing-image {
         background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
-        height: 15rem;
+        height: 20rem;
         /* change */
+        flex-basis: 50%;
+        /* change/add */
     }
 
     /* .price-heading h3 {
@@ -835,19 +849,28 @@ footer {
     }
 
     /* Main content - Home - Location section */
-    .location-section {
+    #location {
         scroll-margin-top: 15rem;
         /* change/add */
+    }
+
+    .location-section {
+        display: flex;
+        flex-direction: row-reverse;
+        /* change */
+        align-items: center;
     }
 
     .location-image {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
-        height: 15rem;
+        height: 20rem;
         /* change */
+        flex-basis: 50%;
+        /* change/add */
     }
 
-    .location {
+    .location-address {
         width: 100%;
         display: flex;
         flex-direction: column;
