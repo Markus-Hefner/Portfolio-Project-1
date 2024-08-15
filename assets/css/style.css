@@ -58,10 +58,10 @@ header {
     flex-direction: column;
     font-size: 2rem;
     color: #272727;
-    width: 5rem;
-    height: 5rem;
+    /* width: 5rem;
+    height: 5rem; */
     position: absolute;
-    left: 23%;
+    left: 15%;
     align-items: end;
     padding: 0.2rem 0 0 0;
 }
@@ -372,7 +372,7 @@ footer {
         font-size: 3.5rem;
         /* change */
         color: #272727;
-        width: 6rem;
+        /* width: 6rem; */
         /* change */
         height: 6rem;
         /* change */
@@ -656,10 +656,10 @@ footer {
         font-size: 5rem;
         /* change */
         color: #272727;
-        /* width: 6rem;
-        height: 6rem; */
+        /* width: 6rem; */
+        height: 6rem;
         position: absolute;
-        left: 31%;
+        left: 14%;
         /* change */
         align-items: end;
         /* change */
