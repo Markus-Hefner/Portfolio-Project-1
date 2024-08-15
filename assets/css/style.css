@@ -45,7 +45,7 @@ header {
     top: 0;
 }
 
-#title-section {
+.title-section {
     background-color: #f5f5f5;
     /* Fallback colour */
     background: url(../images/snare-top.jpg) no-repeat center center/cover;
@@ -53,7 +53,7 @@ header {
     background-size: 160%;
 }
 
-#title-section h1 {
+.title-section h1 {
     display: flex;
     flex-direction: column;
     font-size: 2rem;
@@ -68,7 +68,7 @@ header {
 
 
 /* Header - Navbar */
-#navbar-section {
+.navbar-section {
     width: 100%;
     height: 2rem;
     background-color: #f5f5f5;
@@ -103,18 +103,18 @@ main {
 }
 
 /* Main content - Home - Banner section */
-#banner {
+.banner {
     width: 100%;
     padding: 0 5% 0 5%;
 }
 
-/* #banner h2 {
+/* .banner h2 {
     font-size: 120%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-#hero-image {
+.hero-image {
     background: url(../images/hero-top.jpg) no-repeat center center/cover;
     width: 100%;
     height: 10rem;
@@ -129,42 +129,42 @@ main {
 
 }
 
-/* #why-section h3 {
+/* .why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-#why-list {
+.why-list {
     padding-left: 1.25rem;
 }
 
-#why-list li {
+.why-list li {
     margin: 0.125rem 0 0.25rem 0;
     font-size: 90%;
 }
 
 /* Main content - Home - Pricing section */
 
-#pricing-section {
+.pricing-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#pricing-image {
+.pricing-image {
     background: url(../images/drumset-top.jpg) no-repeat center center/cover;
     width: 100%;
     height: 7rem;
 }
 
-/* #price-heading h3 {
+/* .price-heading h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-#price-table {
+.price-table {
     border: #272727;
     border-width: 2px;
     border-style: solid;
@@ -183,12 +183,12 @@ td {
     font-size: 90%;
 }
 
-#lesson-frquency {
+.lesson-frquency {
     margin-top: 20px;
     font-size: 70%;
 }
 
-#free-trial {
+.free-trial {
     border: #272727;
     border-style: solid;
     border-width: 2px;
@@ -356,7 +356,7 @@ footer {
         text-align: center;
     }
 
-    #title-section {
+    .title-section {
         background-color: #f5f5f5;
         /* Fallback colour */
         background: url(../images/snare-top.jpg) no-repeat center center/cover;
@@ -365,7 +365,7 @@ footer {
         background-size: 160%;
     }
 
-    #title-section h1 {
+    .title-section h1 {
         display: flex;
         flex-direction: row;
         /* change */
@@ -384,13 +384,13 @@ footer {
         padding: 0.2rem 0 0 0;
     }
 
-    #title-section p {
+    .title-section p {
         padding: 0 0.5rem 0 0.5rem;
         /* change */
     }
 
     /* Header - Navbar */
-    #navbar-section {
+    .navbar-section {
         height: 2.4rem;
         /* change */
     }
@@ -412,18 +412,18 @@ footer {
     }
 
     /* Main content - Home - Banner section */
-    #banner {
+    .banner {
         width: 100%;
         padding: 0 5% 0 5%;
     }
 
-    /* #banner h2 {
+    /* .banner h2 {
     font-size: 120%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-    #hero-image {
+    .hero-image {
         background: url(../images/hero-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 10rem;
@@ -437,17 +437,17 @@ footer {
         */
     }
 
-    /* #why-section h3 {
+    /* .why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-    #why-list {
+    .why-list {
         padding-left: 1.25rem;
     }
 
-    #why-list li {
+    .why-list li {
         margin: 0.125rem 0 0.25rem 0;
         font-size: 100%;
         /* change */
@@ -455,26 +455,26 @@ footer {
 
     /* Main content - Home - Pricing section */
 
-    #pricing-section {
+    .pricing-section {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #pricing-image {
+    .pricing-image {
         background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 8.3rem;
         /* change */
     }
 
-    /* #price-heading h3 {
+    /* .price-heading h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-    #price-table {
+    .price-table {
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -494,7 +494,7 @@ footer {
         /* change */
     }
 
-    #lesson-frquency {
+    .lesson-frquency {
         margin-top: 20px;
         font-size: 84%;
         /* change */
@@ -502,7 +502,7 @@ footer {
         /* change/add */
     }
 
-    #free-trial {
+    .free-trial {
         border: #272727;
         border-style: solid;
         border-width: 2px;
@@ -640,7 +640,7 @@ footer {
         text-align: center;
     }
 
-    #title-section {
+    .title-section {
         background-color: #f5f5f5;
         /* Fallback colour */
         background: url(../images/snare-top.jpg) no-repeat center center/cover;
@@ -649,7 +649,7 @@ footer {
         background-size: 160%;
     }
 
-    #title-section h1 {
+    .title-section h1 {
         display: flex;
         flex-direction: column;
         /* change */
@@ -666,13 +666,13 @@ footer {
         padding: 0.2rem 0 0 0;
     }
 
-    #title-section p {
+    .title-section p {
         padding: 0 0.5rem 0 0.5rem;
         /* change */
     }
 
     /* Header - Navbar */
-    #navbar-section {
+    .navbar-section {
         height: 3rem;
         /* change */
     }
@@ -693,18 +693,18 @@ footer {
     }
 
     /* Main content - Home - Banner section */
-    #banner {
+    .banner {
         width: 100%;
         padding: 0 5% 0 5%;
     }
 
-    #banner h2 {
+    .banner h2 {
         /* font-size: 120%; */
         /* padding-bottom: 1rem; */
         /* text-align: center; */
     }
 
-    #hero-image {
+    .hero-image {
         background: url(../images/hero-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 16rem;
@@ -719,7 +719,7 @@ footer {
         */
     }
 
-    #why-section {
+    .why-section {
         display: flex;
         /* change/add */
         flex-direction: column;
@@ -728,19 +728,19 @@ footer {
         /* change/add */
     }
 
-    /* #why-section h3 {
+    /* .why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-    #why-list {
+    .why-list {
         padding-left: 1.25rem;
         width: 55ch;
         /* change/add */
     }
 
-    #why-list li {
+    .why-list li {
         margin: 0.125rem 0 0.25rem 0;
         font-size: 100%;
         /* change */
@@ -748,27 +748,27 @@ footer {
 
     /* Main content - Home - Pricing section */
 
-    #pricing-section {
+    .pricing-section {
         scroll-margin-top: 15rem;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #pricing-image {
+    .pricing-image {
         background: url(../images/drumset-top.jpg) no-repeat center center/cover;
         width: 100%;
         height: 15rem;
         /* change */
     }
 
-    /* #price-heading h3 {
+    /* .price-heading h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 } */
 
-    #price-table {
+    .price-table {
         border: #272727;
         border-width: 2px;
         border-style: solid;
@@ -788,7 +788,7 @@ footer {
         /* change */
     }
 
-    #lesson-frquency {
+    .lesson-frquency {
         margin-top: 20px;
         font-size: 84%;
         /* change */
@@ -796,7 +796,7 @@ footer {
         /* change/add */
     }
 
-    #free-trial {
+    .free-trial {
         border: #272727;
         border-style: solid;
         border-width: 2px;
