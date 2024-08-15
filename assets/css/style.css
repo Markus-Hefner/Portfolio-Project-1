@@ -135,6 +135,15 @@ main {
     align-self: center;
 } /* change/add */
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 2%;
+    height: 20rem;
+    flex-basis: 50%;
+} /* change/add */
+
 /* .why-section h3 {
     font-size: 110%;
     padding: 1rem 0.25rem 0.25rem 0.25rem;
@@ -213,6 +222,11 @@ td {
 }
 
 /* Main content - Home - Location section */
+.location-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .location-image {
     background: url(../images/drumset-side.jpg) no-repeat center center/cover;
     width: 100%;
@@ -539,6 +553,11 @@ footer {
     }
 
     /* Main content - Home - Location section */
+    .location-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .location-image {
         background: url(../images/drumset-side.jpg) no-repeat center center/cover;
         width: 100%;
@@ -749,15 +768,6 @@ footer {
         /* border: 2px solid black; /* This has to be removed later */
         */
     }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 0 0 2%;
-        height: 20rem;
-        flex-basis: 50%;
-    } /* change/add */
 
     .why-section {
         display: flex;
