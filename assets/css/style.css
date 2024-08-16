@@ -293,6 +293,11 @@ td {
     margin: 0 5% 1.5rem 5%;
 }
 
+.info-signup {
+    display: flex;
+    flex-direction: column;
+}
+
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -1297,10 +1302,26 @@ footer {
 
 /* Media query large devices 1400px and up */
 @media screen and (min-width: 1400px) {
-.signup-form {
-    display: flex;
-    flex-direction: column;
-    padding: 0 35% 0 35%;
-    /* change */
+    .info-signup {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10% 0 10%;
+        /* change */
+        height: 35rem;
+        /* change */
+        flex-basis: 60%;
+        /* change/add */
+    }
+
+    .contact-end-image {
+        background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
+        /* background-position: 50% 25%; */
+        height: 35rem;
+        flex-basis: 40%;
     }
 }
