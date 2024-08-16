@@ -605,6 +605,11 @@ footer {
 
     /* Main content - Contact Us */
 
+    .info-signup {
+        display: flex;
+        flex-direction: row;
+    }
+
     .signup-form {
         padding: 0 10% 0 10%;
         height: 35rem;
