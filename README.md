@@ -208,7 +208,19 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 
 - The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No error were found.
 
-report
+Home/Pricing/Location
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2F
+
+Contact-Us
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fcontact-us.html
+
+Confirmation
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fconfimation.html%3Fchilds-first-name%3Dasdf%26childs-last-name%3Dasdf%26childs-age%3D5%26guardians-first-name%3Dasdf%26guardians-last-name%3Dasdf%26email%3Dasdf%2540asdf%26phone%3D
+
+CSS
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
+
+
 
 - User Stories - Test Cases
   - As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
