@@ -672,3 +672,17 @@ footer {
         gap: 1.6rem;
     }
 }
+
+/* Media query large devices 1500px and up */
+@media screen and (min-width: 1500px) {
+    /* Main content - Home - Banner section */
+    .hero-image {
+        height: 24rem;
+        background-position: center 45%;
+    }
+
+    /* Main content - Home - Quote section */
+    .quote-image {
+        height: 28rem;
+    }
+}
