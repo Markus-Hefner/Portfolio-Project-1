@@ -90,7 +90,7 @@ nav li a {
     color: #272727;
     text-decoration: none;
     font-size: 90%;
-    padding: 0 0.2rem 0 0.2rem;
+    padding: 0 0.2rem;
 }
 
 /* Main content - General */
@@ -104,7 +104,7 @@ main {
 /* Main content - Home - Banner section */
 .banner {
     width: 100%;
-    padding: 0 5% 0 5%;
+    padding: 0 5%;
 }
 
 .hero-image {
@@ -116,7 +116,7 @@ main {
 /* Main content - Home - Why section */
 
 .sections-general {
-    margin: 1.5rem 5% 1.5rem 5%;
+    margin: 1.5rem 5%;
 }
 
 .link-headings {
@@ -223,7 +223,7 @@ td {
 
 .quote {
     font-size: 90%;
-    margin: 0.25rem 0 0.25rem 0;
+    margin: 0.25rem 0;
 }
 
 .quotation {
@@ -250,7 +250,7 @@ td {
 .signup-form {
     display: flex;
     flex-direction: column;
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
     align-items: center;
 }
 
@@ -295,7 +295,7 @@ td {
 
 .confirmation-message p {
     text-align: center;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .confirmation-end-image {
@@ -312,7 +312,7 @@ footer {
 
 .social {
     width: 100%;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 
 .visit-us {
@@ -361,7 +361,7 @@ footer {
     }
 
     .title-section p {
-        padding: 0 0.5rem 0 0.5rem;
+        padding: 0 0.5rem;
     }
 
     /* Header - Navbar */
@@ -371,7 +371,7 @@ footer {
 
     nav li a {
         font-size: 100%;
-        padding: 0 0.5rem 0 0.5rem;
+        padding: 0 0.5rem;
     }
 
     /* Main content - General */
@@ -426,12 +426,12 @@ footer {
 
     .quote {
         font-size: 100%;
-        margin: 0.5rem 0 0.5rem 0;
+        margin: 0.5rem 0;
     }
 
     /* Main content - Contact Us */
     .signup-form {
-        padding: 0 20% 0 20%;
+        padding: 0 20%;
     }
 
     .signup-form label {
@@ -479,7 +479,7 @@ footer {
 
     nav li a {
         font-size: 110%;
-        padding: 0 0.7rem 0 0.7rem;
+        padding: 0 0.7rem;
     }
 
     nav li a:hover {
@@ -503,7 +503,7 @@ footer {
     /* Main content - Home - Why section */
 
     .sections-general {
-        margin: 0 5% 0 5%;
+        margin: 0 5%;
     }
 
     .why-section {
@@ -558,12 +558,12 @@ footer {
 
     /* Main content - Home - Quote section */
     .quote {
-        margin: 1rem 0 1rem 0;
+        margin: 1rem 0;
     }
 
     /* Main content - Contact Us */
     .signup-form {
-        padding: 0 25% 0 25%;
+        padding: 0 25%;
     }
 
     .trial-button {
@@ -587,7 +587,7 @@ footer {
 
     .contact-image {
         height: 30rem;
-        margin: 1.5rem 5% 1.5rem 5%;
+        margin: 1.5rem 5%;
     }
 
     /* Main content - Confirmation */
@@ -618,7 +618,7 @@ footer {
 
     nav li a {
         font-size: 115%;
-        padding: 0 0.9rem 0 0.9rem;
+        padding: 0 0.9rem;
     }
 
     /* Main content - General */
@@ -633,7 +633,7 @@ footer {
     /* Main content - Home - Why section */
 
     .sections-general {
-        margin: 0 5% 0 5%;
+        margin: 0 5%;
     }
 
     .why-list {
@@ -653,7 +653,7 @@ footer {
     }
 
     .signup-form {
-        padding: 0 10% 0 10%;
+        padding: 0 10%;
         height: 35rem;
         flex-basis: 60%;
     }
