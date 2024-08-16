@@ -428,6 +428,7 @@ footer {
 
     .quote {
         font-size: 100%;
+        margin: 0.5rem 0 0.5rem 0;
     }
 
     /* Main content - Contact Us */
@@ -558,6 +559,9 @@ footer {
     }
 
     /* Main content - Home - End of homepage section */
+    .quote {
+        margin: 1rem 0 1rem 0;
+    }
 
     /* Main content - Contact Us */
 
