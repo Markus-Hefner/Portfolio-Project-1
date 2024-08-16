@@ -54,15 +54,14 @@ header {
 }
 
 .title-section h1 {
-    display: flex;
-    flex-direction: column;
     font-size: 2rem;
     color: #272727;
-    height: 5rem;
+    height: 100%;
+    width: 52%;
     position: absolute;
-    right: 53%;
-    align-items: end;
-    padding: 0.2rem 0 0 0;
+    left: 13%;
+    text-align: center;
+    padding-top: 0.2rem;
 }
 
 
@@ -359,11 +358,9 @@ footer {
     }
 
     .title-section h1 {
-        flex-direction: row;
         font-size: 3.5rem;
         height: 6rem;
-        left: 13%;
-        align-items: center;
+        padding-top: 1rem;
     }
 
     .title-section p {
@@ -472,11 +469,9 @@ footer {
     }
 
     .title-section h1 {
-        flex-direction: column;
         font-size: 5rem;
         height: 12rem;
-        right: 58%;
-        align-items: end;
+        padding-top: 3rem;
     }
 
     /* Header - Navbar */
@@ -597,7 +592,8 @@ footer {
     .title-section h1 {
         flex-direction: row;
         font-size: 6.7rem;
-        left: 13%;
+        left: 10.5%;
+        padding-top: 2rem;
     }
 
     /* Header - Navbar */
