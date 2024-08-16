@@ -217,7 +217,7 @@ td {
 }
 
 /* Main content - Home - End of homepage section */
-.home-end-image {
+.quote-image {
     background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
     height: 15rem;
 }
@@ -422,7 +422,7 @@ footer {
     }
 
     /* Main content - Home - End of homepage section */
-    .home-end-image {
+    .quote-image {
         height: 18rem;
     }
 
