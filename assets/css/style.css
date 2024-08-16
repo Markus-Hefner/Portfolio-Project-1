@@ -301,6 +301,7 @@ td {
 .signup-form {
     display: flex;
     flex-direction: column;
+    padding: 0 10% 0 10%;
 }
 
 .signup-form label {
@@ -314,7 +315,6 @@ td {
     border-radius: 5px;
     padding: 0.2rem;
     margin: 0.125rem 0 0.5rem 0;
-    max-width: 20rem;
 }
 
 .submit-button {
