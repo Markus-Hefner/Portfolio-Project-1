@@ -61,7 +61,7 @@ header {
     /* width: 5rem; */
     height: 5rem;
     position: absolute;
-    left: 15%;
+    right: 53%;
     align-items: end;
     padding: 0.2rem 0 0 0;
 }
@@ -418,7 +418,7 @@ footer {
         height: 6rem;
         /* change */
         position: absolute;
-        left: 12%;
+        left: 13%;
         /* change */
         align-items: center;
         /* change */
@@ -721,7 +721,7 @@ footer {
         height: 12rem;
         /* change */
         position: absolute;
-        left: 14%;
+        right: 58%;
         /* change */
         align-items: end;
         /* change */
@@ -1034,7 +1034,7 @@ footer {
         /* width: 6rem; */
         height: 12rem;
         position: absolute;
-        left: 11%;
+        left: 13%;
         /* change */
         align-items: center;
         padding: 0.2rem 0 0 0;
@@ -1256,7 +1256,7 @@ footer {
         margin: 0 5% 1.5rem 5%;
         /* align-items: center; */
     }
-
+    
     .info-signup {
         display: flex;
         flex-direction: row;
@@ -1307,4 +1307,13 @@ footer {
         height: 35rem;
         flex-basis: 40%;
     }
+}
+
+/* Media query large devices 1400px and up */
+@media screen and (min-width: 1400px) {
+    
+
+    
+
+    
 }
