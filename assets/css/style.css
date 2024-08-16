@@ -294,10 +294,19 @@ td {
     height: 15rem;
 }
 
-/* Confimation */
+/* Main content - Confirmation */
+.confirmation-message {
+    margin-bottom: 2rem;
+}
 
-.confimation-message p {
+.confirmation-message p {
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.confirmation-end-image {
+    background: url(../images/high-tom.jpg) no-repeat center 35% / cover;
+    background-position: top;
+    height: 15rem;
 }
 
 /* Footer */
@@ -445,6 +454,11 @@ footer {
         width: 60%;
     }
 
+    /* Main content - Confirmation */
+    .confirmation-end-image {
+        height: 28rem;
+    }
+
     /* Footer */
     .social-links {
         gap: 1.2rem;
@@ -562,6 +576,11 @@ footer {
         margin: 1.5rem 5% 1.5rem 5%;
     }
 
+    /* Main content - Confirmation */
+    .confirmation-end-image {
+        height: 35rem;
+    }
+
     /* Footer */
     .visit-us h4 {
         font-size: 110%;
@@ -624,6 +643,11 @@ footer {
         padding: 0 10% 0 10%;
         height: 35rem;
         flex-basis: 60%;
+    }
+
+    /* Main content - Confirmation */
+    .confirmation-end-image {
+        height: 40rem;
     }
 
     /* Footer */
