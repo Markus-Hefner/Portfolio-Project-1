@@ -189,12 +189,13 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 ## Typography and Colour Schemes
 
 ### Typography
-- I used the Raleway and Merriweather fonts since I wanted it to be a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids. However, since it's still adults who will visit the site since they want to find a drum school for kids I didn't want to carry it too far with the embellishments.
+- The used fonts are Raleway and Merriweather since they are a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids.
+- However, since it is still adults who will visit the site searching for a drum teacher/school for their children the fonts are not carrying it too far with the embellishments.
 
 ### Colour Schemes
-- The dominant colours are whitesmoke and a shade of beige. They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
-Luckily I also was able to find pictures on pexels.com of a drum kit with a similar colour which I then used as dividers between the sections on the homepage as well as on the Contact-Us page
-- The hero image as well as the end-of-page image were chosen firstly because the show kids playing drums and secondly because the background was white-ish which works nicely with the navbar and footer colour of whitesmoke.
+- The dominant colours are #f5f5f5 (also known as whitesmoke) and a shade of beige/yellow (#fce787). They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
+- Luckily on the site pexels.com images of a drum kit with a similar beige colour were found which were then used as the title image, as visual dividers for the sections on the homepage as well as on the Confirmation page.
+- The hero images at the top and bottom of the homepage and on the Contact Us page were chosen firstly because they show kids playing drums and having a lot of fun doing so. And secondly because the background was white-ish which works nicely with the colour of navigation bar and footer (the already mentioned whitesmoke or #f5f5f5).
 
 ## Wireframes
 
@@ -209,6 +210,7 @@ Luckily I also was able to find pictures on pexels.com of a drum kit with a simi
 - Font Awesome was used to provide the icon for all social plattforms.
 - favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
 - Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
+- All images on the site are free images from pexels.com.
 
 ## Testing
 
@@ -233,26 +235,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check the c
 ### User Stories - Test Cases
   - As a visitor of this site I want to find and contact a drum teacher for my 6 year old child who just started elementary school.
     - Because of the simple layout of the site they will find the Contact Us link right away in the very easily readable navigation bar.
-    ![Homepage](readmedocs/Userstory-1-image-1.png "Homepage")
+    ![Homepage](readmedocs/Userstories-image-1.png "Homepage")
     - After clicking on it they will be re-directed to the site's "contact-us"-form.
-    ![Contact-Us-page](readmedocs/Userstory-1-image-2.png "Contact Us page")
+    ![Contact-Us-page](readmedocs/Userstories-image-2.png "Contact Us page")
     - Here they can fill out the form whereby it won't be send and they will be notified in case anything is missing but the phone number (which is optional).
-    ![Contact-Us-page-missing-data](readmedocs/Userstory-1-image-3.png "Contact Us page missing data")
+    ![Contact-Us-page-missing-data](readmedocs/Userstories-image-3.png "Contact Us page missing data")
     - After submitting the form by clicking on the "Count Me In!"-button they will be re-directed to a confirmation page. From here they can go to homepage, the pricing section, the location section or contact them via the links in the navigation bar.
-    ![Confirmation-page](readmedocs/Userstory-1-image-4.png "Confirmation page")
+    ![Confirmation-page](readmedocs/Userstories-image-4.png "Confirmation page")
 
-  - As parent I want to quickly gather information about this drum school as well as get feel for it in order to find out whether or not it is a possible option for our child.
-    - As a first time visitor they user will be greeted with a welcoming and warm homepage. The color schemes and hero images immediately establish a feeling that this site is all about drumming and fun. In the navigation bar I found links to the different sections and pages. To see the section I could also just scroll down. In order to get a better feeling for the school I chose the latter. All was very clean and I quickly got sense of school and enough information to make an informed desicion.
+  - As a parent I want to quickly gather information about this drum school as well as get feel for it in order to find out whether or not it is a possible option for our child.
+    - As a first time visitor the user will be greeted with a welcoming and warm homepage. The colour schemes are inviting and coherent and the hero image immediately establish a feeling that this site is all about drumming and the enjoyment of it. In the navigation bar will find links to the different sections and pages.
+    ![Homepage](readmedocs/Userstories-image-1.png "Homepage")
+    - To see the section the user can also just scroll down in order to get a better overall impression of the site and thus a better feeling for the school.
+    ![Homepage-Pricing-Location-sections](readmedocs/Userstories-image-5.png "Homepage with Pricing and Location sections")
+    - The information is structured a sensible manner. Furthermore the hero image at the end of page emphasizes agian the school's playful approach to playing drums as well as an inspiring quote.
+    ![Homepage-Quote-section-Footer](readmedocs/Userstories-image-6.png "Homepage Quote section and Footer")
+    - For further information the user will find in the footer all social links which open in a new tab.
 
-  - As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
-  However, I decided to use the links since I find more efficient and I always new were I was. And since the header and title remained at the top of the screen at all times I was able to go from anywhere to everywhere on the site.
-  In the pricing section I also found a button for a free trial which led me to the contact us section.
-  IMG
-
-  - As a recurring visitor of the site I want to check out their social plattforms.
+  - As caring guardians we already looked into drum schools and I would like to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
+    - Upon entering the homepage the users can quickly and easily find the most relevant information either by clicking on the corresponding links in the navigation bar or by scrolling down. This information is all contained as sections on the homepage for fast accessibility instead of opening a new HTML-file.
+    ![Homepage-Pricing-Location-sections-button-hovered](readmedocs/Userstories-image-7.png "Homepage with Pricing and Location sections, cursor hovering over button")
+    In the Pricing section the users also learn via a button text that there is a free trial lesson. By clicking the button the users are directly forwarded to the Contact Us form.
+    I![Contact-Us-page](readmedocs/Userstories-image-2.png "Contact Us page")
+    - Since the title and navigation bar remain at the top of the screen at all times the users are able to move quickly on the site.
 
 ### Bugs
-- FIXED: At the beginning the background images were used as normal images within the HTML which led to distorted pictures. However, the problem was fixed after the images were loaded in the CSS.
+- FIXED: At the beginning the background images were implemented as normal images within the HTML file which led to distorted pictures. However, the problem was fixed after the images were loaded as background in the CSS file.
 - NOT FIXED: I was unable to get the input field of the form element to get to max-width of 20rem while also being aligned center by the parent container. They are now at their default width which looks a bit odd espacially on larger screen sizes.
 
 ### Supported Screens and Browsers
