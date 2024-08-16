@@ -198,7 +198,9 @@ Luckily I also was able to find pictures on pexels.com of a drum kit with a simi
 
 ## Wireframes
 
+![Wireframe for homepage for mobile and desktop](readmedocs/Wireframes-1.jpeg "Wireframes 1")
 
+![Wireframe for contact us page for mobile and desktop](readmedocs/Wireframes-2.jpeg "Wireframes 2")
 
 ## Technology
 
@@ -229,24 +231,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check the c
 
 
 ### User Stories - Test Cases
-  - As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
-  Because of the simple layout of the site I found the Contact Us link right away in the very easily readable navigation bar.
-  IMG
-  After clicking on it I was re-directed to the site contact us form. I right away clicked on the "Count Me In!"-button. However, I was informed that I first had to put in my child's first name.
-  IMG
-  After that I clicked again on the "Count Me In!"-button but again I was informed that I had fill out the next input field.
-  IMG
-  This went on as such until the phone number which I was allowed to skip.
-  IMG
-  Then I was re-directed to a confirmation page. Since the basic layout was the same from here I had the option to go to homepage, the pricing section, the location section or contact them again by click again on the "Contact-Us"-button.
+  - As a visitor of this site I want to find and contact a drum teacher for my 6 year old child who just started elementary school.
+    - Because of the simple layout of the site they will find the Contact Us link right away in the very easily readable navigation bar.
+    ![Homepage](readmedocs/Userstory-1-image-1.png "Homepage")
+    - After clicking on it they will be re-directed to the site's "contact-us"-form.
+    ![Contact-Us-page](readmedocs/Userstory-1-image-2.png "Contact Us page")
+    - Here they can fill out the form whereby it won't be send and they will be notified in case anything is missing but the phone number (which is optional).
+    ![Contact-Us-page-missing-data](readmedocs/Userstory-1-image-3.png "Contact Us page missing data")
+    - After submitting the form by clicking on the "Count Me In!"-button they will be re-directed to a confirmation page. From here they can go to homepage, the pricing section, the location section or contact them via the links in the navigation bar.
+    ![Confirmation-page](readmedocs/Userstory-1-image-4.png "Confirmation page")
 
-  - As a parent who wants to gather information about a possible drum schools since I quickly want to find information about this particular school.
-  As a first time visitor I was greeted with a welcoming and warm homepage. The color schemes and images immediately established the feeling of drumming and music. In the navigation bar I found links to the different sections and pages. To see the section I could also just scroll down. In order to get a better feeling for the school I chose the latter. All was very clean and I quickly got sense of school and enough information to make an informed desicion.
+  - As parent I want to quickly gather information about this drum school as well as get feel for it in order to find out whether or not it is a possible option for our child.
+    - As a first time visitor they user will be greeted with a welcoming and warm homepage. The color schemes and hero images immediately establish a feeling that this site is all about drumming and fun. In the navigation bar I found links to the different sections and pages. To see the section I could also just scroll down. In order to get a better feeling for the school I chose the latter. All was very clean and I quickly got sense of school and enough information to make an informed desicion.
 
   - As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
   However, I decided to use the links since I find more efficient and I always new were I was. And since the header and title remained at the top of the screen at all times I was able to go from anywhere to everywhere on the site.
   In the pricing section I also found a button for a free trial which led me to the contact us section.
   IMG
+
+  - As a recurring visitor of the site I want to check out their social plattforms.
 
 ### Bugs
 - FIXED: At the beginning the background images were used as normal images within the HTML which led to distorted pictures. However, the problem was fixed after the images were loaded in the CSS.
