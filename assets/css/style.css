@@ -483,6 +483,10 @@ footer {
         padding: 0 0.7rem 0 0.7rem;
     }
 
+    nav li a:hover {
+        border-bottom: 2px solid #272727;
+    }
+
     /* Main content - General */
     main {
         margin-top: 15rem;
@@ -599,10 +603,6 @@ footer {
     nav li a {
         font-size: 120%;
         padding: 0 0.9rem 0 0.9rem;
-    }
-
-    nav li a:hover {
-        border-bottom: 2px solid #272727;
     }
 
     /* Main content - General */
