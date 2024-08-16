@@ -209,6 +209,7 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 - GitHub is used for storing the code.
 - Font Awesome was used to provide the icon for all social plattforms.
 - favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
+- The png-graphic that was used to create the favicon was from the website clipartmax.com.
 - Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
 - All images on the site are free images from pexels.com.
 
@@ -269,6 +270,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check the c
 
 ## Deployment
 
+### GitHub
+
+- Log into GitHub account.
+- Choose from the correct repository on the left-hand side.
+- In the navigation bar at top of the screen click on "Settings". (Attention: not the "Settings" in the drop-down menu in upper right-hand corner.)
+- Under "Code and automation" click on "Pages".
+- From the drop-down menu under "Source" choose "Deploy from a branch"
+- From the first drop-down menu under "Branch" choose your main branch (usually it is called "Master Branch" or just "main").
+- From the second drop-down menu under "Branch" choose "/ (root)".
+- Click "Save".
+- In the navigation bar at top of the screen click on "Code".
+- On the right-hand sidebar of the "Code"-page find a section called "Deployments" and click on "github-pages".
+- You will find a box labelled "Latest deployments" as well as a list of all deployments so far. Open the website by clicking on the link in the "Latest deployments"-box.
 
 
 
