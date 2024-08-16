@@ -675,6 +675,7 @@ footer {
 
 /* Media query large devices 1500px and up */
 @media screen and (min-width: 1500px) {
+
     /* Main content - Home - Banner section */
     .hero-image {
         height: 24rem;
