@@ -318,6 +318,7 @@ td {
 }
 
 .submit-button {
+    color: #272727;
     padding: 0.5rem;
     font-family: 'Merriweather', serif;
     font-size: 90%;
@@ -659,6 +660,7 @@ footer {
     }
 
     .submit-button {
+        color: #272727;
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
@@ -995,6 +997,7 @@ footer {
     }
 
     .submit-button {
+        color: #272727;
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
@@ -1008,6 +1011,22 @@ footer {
         background-color: #f5f5f5;
         align-self: center;
     }
+
+    .submit-button:hover {
+        color: #f5f5f5;
+        padding: 0.625rem;
+        font-family: 'Merriweather', serif;
+        font-size: 100%;
+        border: #f5f5f5;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        /* padding: 0.625rem; */
+        width: fit-content;
+        margin: 1.8rem 0 0.6rem 0;
+        background-color: #272727;
+        align-self: center;
+    } /* change/add */
 
     .contact-end-image {
         background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
@@ -1315,6 +1334,7 @@ footer {
     }
 
     .submit-button {
+        color: #272727;
         padding: 0.625rem;
         font-family: 'Merriweather', serif;
         font-size: 100%;
@@ -1326,6 +1346,22 @@ footer {
         width: fit-content;
         margin: 1.8rem 0 0.6rem 0;
         background-color: #f5f5f5;
+        align-self: center;
+    }
+
+    .submit-button:hover {
+        color: #f5f5f5;
+        padding: 0.625rem;
+        font-family: 'Merriweather', serif;
+        font-size: 100%;
+        border: #f5f5f5;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        /* padding: 0.625rem; */
+        width: fit-content;
+        margin: 1.8rem 0 0.6rem 0;
+        background-color: #272727;
         align-self: center;
     }
 
