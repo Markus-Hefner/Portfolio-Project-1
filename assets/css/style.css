@@ -1035,6 +1035,8 @@ footer {
         /* change */
         align-self: center;
         width: 60%;
+        margin: 1.5rem 5% 1.5rem 5%;
+        /* change/add */
     }
 }
 
