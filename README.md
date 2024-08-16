@@ -103,7 +103,7 @@ Kid's Drums is a drum school for children aged 5-10 years. Since there are very 
 
 ### Code Validation
 
-The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No errors were found.
+The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all HTML and CSS files. No errors were found.
 
 Results:
 
@@ -119,6 +119,13 @@ Results:
 - CSS
   https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
 
+### Assessibility
+
+- Lighthouse report for mobile:
+  ![lighthouse-report-mobile](readmedocs/lighthouse-report-mobile-final.png "Lighthouse report for mobile")
+
+- Lighthouse report for desktop:
+  ![lighthouse-report-desktop](readmedocs/lighthouse-report-desktop-final.png "Lighthouse report for desktop")
 
 ### User Stories - Test Cases
   - As a visitor of this site I want to find and contact a drum teacher for my 6 year old child who just started elementary school.
