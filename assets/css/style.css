@@ -58,7 +58,6 @@ header {
     flex-direction: column;
     font-size: 2rem;
     color: #272727;
-    /* width: 5rem; */
     height: 5rem;
     position: absolute;
     right: 53%;
@@ -98,8 +97,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 7rem;
-    min-height: 2000px;
-    /* This has to be removed later */
 }
 
 /* Main content - Home - Banner section */
@@ -107,12 +104,6 @@ main {
     width: 100%;
     padding: 0 5% 0 5%;
 }
-
-/* .banner h2 {
-    font-size: 120%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
 .hero-image {
     background: url(../images/hero-1.jpg) no-repeat center center/cover;
@@ -124,8 +115,6 @@ main {
 
 .sections-general {
     margin: 1.5rem 5% 1.5rem 5%;
-    /* border: 2px solid black; */
-    /* This has to be removed later */
 }
 
 .link-headings {
@@ -135,8 +124,6 @@ main {
     align-self: center;
 }
 
-/* change/add */
-
 .info {
     display: flex;
     flex-direction: column;
@@ -145,14 +132,6 @@ main {
     height: 20rem;
     flex-basis: 50%;
 }
-
-/* change/add */
-
-/* .why-section h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
 .why-list {
     padding-left: 1.25rem;
@@ -176,12 +155,6 @@ main {
     width: 100%;
     height: 7rem;
 }
-
-/* .price-heading h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
 .price-table {
     border: #272727;
@@ -218,9 +191,6 @@ td {
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    /* display: flex;
-    justify-content: center; */
-    /* can be deleted */
     background-color: #f5f5f5;
     padding: 0.5rem;
 }
@@ -245,31 +215,16 @@ td {
     align-items: center;
 }
 
-/* .find-us {
-    padding: 0.2rem 0 0.2rem 0;
-} */
-
 .address {
     font-size: 90%;
     padding: 0 0 0.2rem 0;
 }
-
-/* .location-section h3{
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
 /* Main content - Home - End of homepage section */
 .home-end-image {
     background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
     height: 15rem;
 }
-
-/* .home-end-image img {
-    width: 100%;
-    height: 100%;
-} */
 
 .quote {
     font-size: 90%;
@@ -328,7 +283,6 @@ td {
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    /* padding: 0.625rem; */
     width: fit-content;
     margin: 1.5rem 0 0.5rem 0;
     background-color: #f5f5f5;
@@ -337,7 +291,6 @@ td {
 
 .contact-end-image {
     background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
-    /* background-position: 50% 25%; */
     height: 15rem;
 }
 
@@ -388,629 +341,204 @@ footer {
     h2 {
         font-size: 144%;
         /* change */
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
     }
 
     h3 {
         font-size: 132%;
         /* change */
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
     }
 
     .title-section {
-        background-color: #f5f5f5;
-        /* Fallback colour */
-        background: url(../images/snare-top.jpg) no-repeat center center/cover;
         height: 6rem;
-        /* change */
-        background-size: 160%;
     }
 
     .title-section h1 {
-        display: flex;
         flex-direction: row;
-        /* change */
         font-size: 3.5rem;
-        /* change */
-        color: #272727;
-        /* width: 6rem; */
-        /* change */
         height: 6rem;
-        /* change */
-        position: absolute;
         left: 13%;
-        /* change */
         align-items: center;
-        /* change */
-        padding: 0.2rem 0 0 0;
     }
 
     .title-section p {
         padding: 0 0.5rem 0 0.5rem;
-        /* change */
     }
 
     /* Header - Navbar */
     .navbar-section {
         height: 2.4rem;
-        /* change */
     }
 
     nav li a {
         font-size: 100%;
-        /* change */
         padding: 0 0.3rem 0 0.3rem;
-        /* change */
     }
 
     /* Main content - General */
     main {
-        background-color: #f8f7a2;
-        /* Make main element take up any surplus space to push footer down */
-        flex: 1 0 auto;
         margin-top: 8.4rem;
-        /* change */
-        /* min-height: 2000px; /* This has to be removed later */
-        */
     }
 
     /* Main content - Home - Banner section */
-    .banner {
-        width: 100%;
-        padding: 0 5% 0 5%;
-    }
-
+    
     .banner h2 {
-        /* font-size: 120%; */
         padding-bottom: 0.5rem;
-        /* change */
-        /* text-align: center; */
-    }
-
-    .hero-image {
-        background: url(../images/hero-1.jpg) no-repeat center center/cover;
-        width: 100%;
-        height: 10rem;
     }
 
     /* Main content - Home - Why section */
-
-    .sections-general {
-        margin: 1.5rem 5% 1.5rem 5%;
-        /* border: 2px solid black; /* This has to be removed later */
-        */
-    }
-
-    /* .why-section h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
-
-    .why-list {
-        padding-left: 1.25rem;
-    }
-
     .why-list li {
-        margin: 0.125rem 0 0.25rem 0;
         font-size: 100%;
-        /* change */
     }
 
     /* Main content - Home - Pricing section */
-
-    .pricing-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .pricing-image {
-        background: url(../images/drumset-top.jpg) no-repeat center center/cover;
-        width: 100%;
         height: 8.3rem;
-        /* change */
-    }
-
-    /* .price-heading h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
-
-    .price-table {
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        width: fit-content;
     }
 
     table,
     th,
     td {
-        padding: 2px;
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-collapse: collapse;
         font-size: 100%;
-        /* change */
     }
 
     .lesson-frquency {
-        margin-top: 20px;
         font-size: 84%;
-        /* change */
         width: 45ch;
-        /* change/add */
     }
 
     .free-trial {
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
-    }
-
-
-    .trial-button {
-        color: #272727;
-        text-decoration: none;
-        border: #272727;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-        /* display: flex;
-        justify-content: center; */
-        /* can be deleted */
-        background-color: #f5f5f5;
-        padding: 0.5rem;
     }
 
     /* Main content - Home - Location section */
-    .location-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .location-image {
-        background: url(../images/drumset-side.jpg) no-repeat center center/cover;
-        width: 100%;
         height: 8.3rem;
-        /* change */
     }
-
-    .location-address {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* .find-us {
-    padding: 0.2rem 0 0.2rem 0;
-} */
 
     .address {
         font-size: 100%;
-        /* change */
-        padding: 0 0 0.2rem 0;
     }
-
-    /* .location-section h3{
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
     /* Main content - Home - End of homepage section */
     .home-end-image {
-        background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
         height: 18rem;
     }
 
-    /* .home-end-image img {
-    width: 100%;
-    height: 100%;
-} */
-
     .quote {
         font-size: 100%;
-        /* change */
-        margin: 0.25rem 0 0.25rem 0;
-    }
-
-    .quotation {
-        text-align: center;
-    }
-
-    .quote-source {
-        text-align: right;
     }
 
     /* Main content - Contact Us */
-
-    .contact-section {
-        display: flex;
-        flex-direction: column;
-        margin: 0 5% 1.5rem 5%;
-        /* align-items: center; */
-    }
-
     .signup-form {
-        display: flex;
-        flex-direction: column;
         padding: 0 20% 0 20%;
-        /* change/add */
     }
 
     .signup-form label {
         font-size: 100%;
-        /* change */
-    }
-
-    .signup-input {
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 5px;
-        padding: 0.2rem;
-        margin: 0.125rem 0 0.5rem 0;
     }
 
     .submit-button {
-        color: #272727;
-        padding: 0.625rem;
-        font-family: 'Merriweather', serif;
         font-size: 100%;
-        /* change */
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        /* padding: 0.625rem; */
-        width: fit-content;
         margin: 1.8rem 0 0.6rem 0;
-        /* change */
-        background-color: #f5f5f5;
-        align-self: center;
     }
 
     .contact-end-image {
-        background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
-        /* background-position: 50% 25%; */
         height: 25rem;
-        /* change */
         align-self: center;
-        /* change/add */
         width: 60%;
-        /* change/add */
     }
 
 }
 
 /* Media query large devices 992px and up */
 @media screen and (min-width: 992px) {
-    h2 {
-        font-size: 144%;
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
-    }
-
-    h3 {
-        font-size: 132%;
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
-    }
-
     .title-section {
-        background-color: #f5f5f5;
-        /* Fallback colour */
-        background: url(../images/snare-top.jpg) no-repeat center center/cover;
         height: 12rem;
-        /* change */
-        background-size: 160%;
     }
 
     .title-section h1 {
-        display: flex;
         flex-direction: column;
-        /* change */
         font-size: 5rem;
-        /* change */
-        color: #272727;
-        /* width: 6rem; */
         height: 12rem;
-        /* change */
-        position: absolute;
         right: 58%;
-        /* change */
         align-items: end;
-        /* change */
-        padding: 0.2rem 0 0 0;
-    }
-
-    .title-section p {
-        padding: 0 0.5rem 0 0.5rem;
     }
 
     /* Header - Navbar */
     .navbar-section {
         height: 3rem;
-        /* change */
     }
 
     nav li a {
         font-size: 110%;
-        /* change */
         padding: 0 0.4rem 0 0.4rem;
-        /* change */
-    }
-
-    nav li a:hover {
-        border-bottom: 2px solid #272727;
     }
 
     /* Main content - General */
     main {
-        background-color: #f8f7a2;
-        /* Make main element take up any surplus space to push footer down */
-        flex: 1 0 auto;
         margin-top: 15rem;
-        /* change */
-        /* min-height: 2000px; /* This has to be removed later */
-        */
     }
 
     /* Main content - Home - Banner section */
-    .banner {
-        width: 100%;
-        padding: 0 5% 0 5%;
-    }
-
     .banner h2 {
-        /* font-size: 120%; */
         padding-bottom: 1rem;
-        /* change */
-        /* text-align: center; */
     }
 
     .hero-image {
-        background: url(../images/hero-1.jpg) no-repeat center center/cover;
-        width: 100%;
         height: 16rem;
-        /* change */
     }
 
     /* Main content - Home - Why section */
 
     .sections-general {
         margin: 0 5% 0 5%;
-        /* change */
-        /* border: 2px solid black; /* This has to be removed later */
-        */
     }
 
     .why-section {
         display: flex;
-        /* change/add */
         flex-direction: column;
-        /* change/add */
         align-items: center;
-        /* change/add */
         margin-bottom: 2rem;
     }
 
     .why-list {
-        padding-left: 1.25rem;
         width: 55ch;
-        /* change/add */
-    }
-
-    .why-list li {
-        margin: 0.125rem 0 0.25rem 0;
-        font-size: 100%;
     }
 
     /* Main content - Home - Pricing section */
     #pricing {
         scroll-margin-top: 15rem;
-        /* change/add */
     }
 
     .pricing-section {
-        display: flex;
         flex-direction: row;
-        /* change */
-        align-items: center;
     }
 
     .pricing-image {
-        background: url(../images/drumset-top.jpg) no-repeat center center/cover;
-        width: 100%;
         height: 20rem;
-        /* change */
         flex-basis: 50%;
-        /* change/add */
     }
-
-    /* .price-heading h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
-
-    .price-table {
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        width: fit-content;
-    }
-
-    table,
-    th,
-    td {
-        padding: 2px;
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-collapse: collapse;
-        font-size: 100%;
-    }
-
-    .lesson-frquency {
-        margin-top: 20px;
-        font-size: 84%;
-        width: 45ch;
-    }
-
-    .free-trial {
-        margin: 1.8rem 0 0.6rem 0;
-    }
-
-    .trial-button {
-        color: #272727;
-        text-decoration: none;
-        border: #272727;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-        /* display: flex;
-        justify-content: center; */
-        /* can be deleted */
-        margin: 1.8rem 0 0.6rem 0;
-        background-color: #f5f5f5;
-        padding: 0.5rem;
-    }
-
-    .trial-button:hover {
-        color: #f5f5f5;
-        text-decoration: none;
-        background-color: #272727;
-        padding: 0.5rem;
-        border: #f5f5f5;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-    }
-
-    /* change/add */
-
 
     /* Main content - Home - Location section */
     #location {
         scroll-margin-top: 15rem;
-        /* change/add */
     }
 
     .location-section {
-        display: flex;
         flex-direction: row-reverse;
-        /* change */
-        align-items: center;
     }
 
     .location-image {
-        background: url(../images/drumset-side.jpg) no-repeat center center/cover;
-        width: 100%;
         height: 20rem;
-        /* change */
         flex-basis: 50%;
-        /* change/add */
     }
-
-    .location-address {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* .find-us {
-    padding: 0.2rem 0 0.2rem 0;
-} */
-
-    .address {
-        font-size: 100%;
-        padding: 0 0 0.2rem 0;
-    }
-
-    /* .location-section h3{
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
     /* Main content - Home - End of homepage section */
-    .home-end-image {
-        background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
-        height: 18rem;
-    }
-
-    /* .home-end-image img {
-    width: 100%;
-    height: 100%;
-} */
-
-    .quote {
-        font-size: 100%;
-        margin: 0.25rem 0 0.25rem 0;
-    }
-
-    .quotation {
-        text-align: center;
-    }
-
-    .quote-source {
-        text-align: right;
-    }
 
     /* Main content - Contact Us */
 
-    .contact-section {
-        display: flex;
-        flex-direction: column;
-        margin: 0 5% 1.5rem 5%;
-        /* align-items: center; */
-    }
-
     .signup-form {
-        display: flex;
-        flex-direction: column;
         padding: 0 25% 0 25%;
-        /* change */
-    }
-
-    .signup-form label {
-        font-size: 100%;
-    }
-
-    .signup-input {
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 5px;
-        padding: 0.2rem;
-        margin: 0.125rem 0 0.5rem 0;
-    }
-
-    .submit-button {
-        color: #272727;
-        padding: 0.625rem;
-        font-family: 'Merriweather', serif;
-        font-size: 100%;
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        /* padding: 0.625rem; */
-        width: fit-content;
-        margin: 1.8rem 0 0.6rem 0;
-        background-color: #f5f5f5;
-        align-self: center;
     }
 
     .submit-button:hover {
@@ -1022,76 +550,32 @@ footer {
         border-width: 2px;
         border-style: solid;
         border-radius: 5px;
-        /* padding: 0.625rem; */
         width: fit-content;
         margin: 1.8rem 0 0.6rem 0;
         background-color: #272727;
         align-self: center;
-    } /* change/add */
+    }
 
     .contact-end-image {
-        background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
-        /* background-position: 50% 25%; */
         height: 30rem;
-        /* change */
-        align-self: center;
-        width: 60%;
         margin: 1.5rem 5% 1.5rem 5%;
-        /* change/add */
     }
 }
 
 /* Media query large devices 1200px and up */
 @media screen and (min-width: 1200px) {
-    h2 {
-        font-size: 144%;
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
-    }
-
-    h3 {
-        font-size: 132%;
-        padding: 1rem 0.25rem 0.25rem 0.25rem;
-        text-align: center;
-    }
-
-    .title-section {
-        background-color: #f5f5f5;
-        /* Fallback colour */
-        background: url(../images/snare-top.jpg) no-repeat center center/cover;
-        height: 12rem;
-        background-size: 160%;
-    }
 
     .title-section h1 {
-        display: flex;
         flex-direction: row;
         font-size: 6.7rem;
-        /* change */
-        color: #272727;
-        /* width: 6rem; */
-        height: 12rem;
-        position: absolute;
         left: 13%;
-        /* change */
-        align-items: center;
-        padding: 0.2rem 0 0 0;
-    }
-
-    .title-section p {
-        padding: 0 0.5rem 0 0.5rem;
     }
 
     /* Header - Navbar */
-    .navbar-section {
-        height: 3rem;
-    }
 
     nav li a {
         font-size: 115%;
-        /* change */
         padding: 0 0.5rem 0 0.5rem;
-        /* change */
     }
 
     nav li a:hover {
@@ -1099,279 +583,31 @@ footer {
     }
 
     /* Main content - General */
-    main {
-        background-color: #f8f7a2;
-        /* Make main element take up any surplus space to push footer down */
-        flex: 1 0 auto;
-        margin-top: 15rem;
-        /* min-height: 2000px; /* This has to be removed later */
-        */
-    }
 
     /* Main content - Home - Banner section */
-    .banner {
-        width: 100%;
-        padding: 0 5% 0 5%;
-    }
 
     .banner h2 {
-        /* font-size: 120%; */
         padding-bottom: 1.5rem;
-        /* change */
         padding-top: 1.5rem;
-        /* change/add */
-        /* text-align: center; */
-    }
-
-    .hero-image {
-        background: url(../images/hero-1.jpg) no-repeat center center/cover;
-        width: 100%;
-        height: 16rem;
     }
 
     /* Main content - Home - Why section */
 
     .sections-general {
         margin: 0 5% 0 5%;
-        /* change */
-        /* border: 2px solid black; /* This has to be removed later */
-        */
-    }
-
-    .why-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-
-    .why-list {
-        padding-left: 1.25rem;
-        width: 55ch;
-    }
-
-    .why-list li {
-        margin: 0.125rem 0 0.25rem 0;
-        font-size: 100%;
     }
 
     /* Main content - Home - Pricing section */
-    #pricing {
-        scroll-margin-top: 15rem;
-    }
-
-    .pricing-section {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .pricing-image {
-        background: url(../images/drumset-top.jpg) no-repeat center center/cover;
-        width: 100%;
-        height: 20rem;
-        flex-basis: 50%;
-    }
-
-    /* .price-heading h3 {
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
-
-    .price-table {
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        width: fit-content;
-    }
-
-    table,
-    th,
-    td {
-        padding: 2px;
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-collapse: collapse;
-        font-size: 100%;
-    }
-
-    .lesson-frquency {
-        margin-top: 20px;
-        font-size: 84%;
-        width: 45ch;
-    }
-
-    .free-trial {
-        margin: 1.8rem 0 0.6rem 0;
-    }
-
-    .trial-button {
-        color: #272727;
-        text-decoration: none;
-        border: #272727;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-        /* display: flex;
-        justify-content: center; */
-        /* can be deleted */
-        background-color: #f5f5f5;
-        padding: 0.5rem;
-    }
-
-
-    .trial-button:hover {
-        color: #f5f5f5;
-        text-decoration: none;
-        background-color: #272727;
-        padding: 0.5rem;
-        border: #f5f5f5;
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 5px;
-    }
 
     /* Main content - Home - Location section */
-    #location {
-        scroll-margin-top: 15rem;
-    }
-
-    .location-section {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
-    .location-image {
-        background: url(../images/drumset-side.jpg) no-repeat center center/cover;
-        width: 100%;
-        height: 20rem;
-        flex-basis: 50%;
-    }
-
-    .location-address {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* .find-us {
-    padding: 0.2rem 0 0.2rem 0;
-} */
-
-    .address {
-        font-size: 100%;
-        padding: 0 0 0.2rem 0;
-    }
-
-    /* .location-section h3{
-    font-size: 110%;
-    padding: 1rem 0.25rem 0.25rem 0.25rem;
-    text-align: center;
-} */
 
     /* Main content - Home - End of homepage section */
-    .home-end-image {
-        background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
-        height: 18rem;
-    }
-
-    /* .home-end-image img {
-    width: 100%;
-    height: 100%;
-} */
-
-    .quote {
-        font-size: 100%;
-        margin: 0.25rem 0 0.25rem 0;
-    }
-
-    .quotation {
-        text-align: center;
-    }
-
-    .quote-source {
-        text-align: right;
-    }
 
     /* Main content - Contact Us */
 
-    .contact-section {
-        display: flex;
-        flex-direction: column;
-        margin: 0 5% 1.5rem 5%;
-        /* align-items: center; */
-    }
-
-    .info-signup {
-        display: flex;
-        flex-direction: row;
-    }
-
     .signup-form {
-        display: flex;
-        flex-direction: column;
         padding: 0 10% 0 10%;
-        /* change */
         height: 35rem;
-        /* change */
         flex-basis: 60%;
-        /* change/add */
-    }
-
-    .signup-form label {
-        font-size: 100%;
-    }
-
-    .signup-input {
-        border: #272727;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 5px;
-        padding: 0.2rem;
-        margin: 0.125rem 0 0.5rem 0;
-    }
-
-    .submit-button {
-        color: #272727;
-        padding: 0.625rem;
-        font-family: 'Merriweather', serif;
-        font-size: 100%;
-        border: #272727;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        /* padding: 0.625rem; */
-        width: fit-content;
-        margin: 1.8rem 0 0.6rem 0;
-        background-color: #f5f5f5;
-        align-self: center;
-    }
-
-    .submit-button:hover {
-        color: #f5f5f5;
-        padding: 0.625rem;
-        font-family: 'Merriweather', serif;
-        font-size: 100%;
-        border: #f5f5f5;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        /* padding: 0.625rem; */
-        width: fit-content;
-        margin: 1.8rem 0 0.6rem 0;
-        background-color: #272727;
-        align-self: center;
-    }
-
-    .contact-end-image {
-        background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
-        /* background-position: 50% 25%; */
-        height: 35rem;
-        flex-basis: 40%;
     }
 }
