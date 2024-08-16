@@ -90,8 +90,8 @@ nav ul {
 nav li a {
     color: #272727;
     text-decoration: none;
-    font-size: 90%;
-    padding: 0 0.2rem 0 0.2rem;
+    font-size: 95%;
+    padding: 0 0.3rem 0 0.3rem;
 }
 
 /* Main content - General */
@@ -379,8 +379,8 @@ footer {
     }
 
     nav li a {
-        font-size: 100%;
-        padding: 0 0.3rem 0 0.3rem;
+        font-size: 110%;
+        padding: 0 0.5rem 0 0.5rem;
     }
 
     /* Main content - General */
@@ -486,8 +486,8 @@ footer {
     }
 
     nav li a {
-        font-size: 110%;
-        padding: 0 0.4rem 0 0.4rem;
+        font-size: 115%;
+        padding: 0 0.7rem 0 0.7rem;
     }
 
     /* Main content - General */
@@ -604,8 +604,8 @@ footer {
     /* Header - Navbar */
 
     nav li a {
-        font-size: 115%;
-        padding: 0 0.5rem 0 0.5rem;
+        font-size: 120%;
+        padding: 0 0.9rem 0 0.9rem;
     }
 
     nav li a:hover {
