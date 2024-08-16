@@ -137,7 +137,7 @@ Happy coding!
 
 # Kid's Drums
 
-Kid's Drums is a drum school for children aged 5-10 years since there are very few drum school who are specialized on this target audience. They curicullum and teaching style is espcially tailored to the learning style of kids that age. 5-10 years was chosen because in Germany it roughly spans the time of elementary school (including the last year of kindergarten) to which the learning system is most applicable.
+Kid's Drums is a drum school for children aged 5-10 years. Since there are very few drum school who are specialized on this target audience there is a need to be addressed. The curriculum and teaching style is especially tailored to the learning style of kids that age. 5-10 years was chosen because in Germany it roughly spans the time of elementary school (including the last year of kindergarten) to which the learning system is most applicable.
 
 
 ![Website on different screen sizes](readmedocs/Mockup-screenshots.png "Mockup screenshot")
@@ -145,51 +145,51 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 
 ## User Stories
 
-- As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
-- As a parent who wants to gather information about a possible drum schools since I quickly want to find information about this particular school.
-- As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
+- As a visitor of this site I want to find and contact a drum teacher for my 6 year old child who just started elementary school.
+- As a parent I want to quickly gather information about this drum school as well as get feel for it in order to find out whether or not it is a possible option for our child.
+- As caring guardians we already looked into drum schools and I would like to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
 
 ## Features
 - The Header
   - The user will immediately see the school's name.
 
 - Navigation
-  - Below the header the user will find navbar links for "Home", "Pricing", "Location" and "Contact Us".
-  - While "Home", "Pricing" and "Location" are all on the same page, "Contact Us" is a another page. This is because given that the information on every page would be too sparse to justify rendering a new page.
+  - Below the header the user will find a navigation bar with links for "Home", "Pricing", "Location" and "Contact Us".
+  - While "Home", "Pricing" and "Location" are section within the homepage, "Contact Us" opens another page. This is because the information on every page would be too sparse to justify rendering a new page.
 
 - The Banner Section
-  - The Banner Section gives the a clear, one sentence statement who the school is for.
+  - The Banner Section gives a clear, one sentence statement who the school is for.
   - It also provides a hero image to set the tone for the website.
 
 - The Why Section
-  - With a simple bullet point list the Why section states why this school is the right school for kids between the ages 5 and 10.
+  - With a simple bullet point list the Why Section states why this school is the right school for kids between the ages of 5 to 10.
 
 - The Pricing Section
-  - Here interested parents/guardians find information about who much the different durations of the lessons will cost them per month.
-  - Furthermore they informed that the lessons will take place only outside the school holidays.
-  - To speed up the registration process users will also find a direct link the contact us form and encourages them to take a trial lesson which is for free.
+  - Here interested parents/guardians can find information about how much the different durations of the lessons will cost them per month.
+  - Furthermore they are informed that the lessons will take place only outside the school holidays which averages in Germany to about three lessons per month.
+  - To speed up the registration process users will also find a direct link to the contact us form and encourages them to take a trial lesson which is for free.
 
 - The Location Section
-  - User will find the address of the school.
+  - User will find the address of the school. (Since the school doesn't exist this address is fictitious.)
 
 - The Contact Us Page
-  - The Contact Us Page presents the user with a form to provide the necessary information.
+  - The Contact Us Page presents the user with a form to provide all necessary information to the school
   - Everything but the phone number are required.
-  - The "Submit"-button text is altered to "Count me in!" for it's abiguous meaning: "Count me in!" as in "I'm in" but also "Count me in" like when counting someone in before playing a song. This fit nice with the musical nature of a drum school.
+  - The "Submit"-button text is altered to "Count me in!" for it's abiguous meaning: "Count me in!" as in "I'm in" but also "Count me in" like when counting someone in before playing a song. This fit nicely with the musical nature of a drum school.
 
 - Footer
-  - In the footer user will find all the social media icons which link to their respective social media plattform on which the school is.
+  - In the footer the user will find all the social media icons which link to their respective social media plattform on which the school is active.
 
 ## Future Features
 
-- In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the location section.
-- To inform users/parents/guardians of the school's activities a "Events" page would be helpful. By showing the school's work in the form of concerts and the like it will enhance the school's visibility in the public and thus driving further client aquistion.
-- A dedicated area for enrolled students which is accessible via a dedicated sign in page/window where students and their parents/guardians will find lesson dates, homework info and the scores/exercises will make it easier for the parents/guardians to see the progress their kids make and help the kids out in case the lost some music sheets.
+- In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the Location Section.
+- To inform users/parents/guardians of the school's activities an "Events" page would be helpful. By showing the school's work in the form of concerts and the like it will enhance the school's visibility in the public and thus driving further client aquistion.
+- A dedicated area for enrolled students which is accessible via a dedicated sign in page/window where students and their parents/guardians will find lesson dates, homework info and the scores/exercises from the lessons will make it easier for the parents/guardians to see the progress their kids make and help the kids out in case they lose some music sheets.
 
 ## Typography and Colour Schemes
 
 ### Typography
-- The used fonts are Raleway and Merriweather since they are a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids.
+- The used fonts are Merriweather and Raleway since they are a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids.
 - However, since it is still adults who will visit the site searching for a drum teacher/school for their children the fonts are not carrying it too far with the embellishments.
 
 ### Colour Schemes
@@ -208,16 +208,16 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 - Gitpod was used for writing and editing the code.
 - GitHub is used for storing the code.
 - Font Awesome was used to provide the icon for all social plattforms.
-- favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
-- The png-graphic that was used to create the favicon was from the website clipartmax.com.
+- favicon.io was used to turn a png-graphic into usable code to paste into the head element in order to get a favicon.
 - Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
-- All images on the site are free images from pexels.com.
 
 ## Testing
 
 ### Code Validation
 
-The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No error were found.
+The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No errors were found.
+
+Results:
 
 - index.html
   https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2F
@@ -230,7 +230,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check the c
 
 - CSS
   https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
-
 
 
 ### User Stories - Test Cases
@@ -284,11 +283,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check the c
 - On the right-hand sidebar of the "Code"-page find a section called "Deployments" and click on "github-pages".
 - You will find a box labelled "Latest deployments" as well as a list of all deployments so far. Open the website by clicking on the link in the "Latest deployments"-box.
 
+## Credits
 
+- All images on the site are free images from pexels.com.
+- The png-graphic that was used to create the favicon was from the website clipartmax.com.
+- I used the Asterisk wildcard selector, its properties as well as its comment from the "Love Running" Walktrough Project.
+- I also used the basic comments from the "Love Running" Walktrough Project to structure my project in the beginning but edited them and added some more as necessary as I progressed.
 
-
-
-
-
-
-
+All other content was written by the developer.
