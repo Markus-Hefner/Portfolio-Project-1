@@ -64,7 +64,6 @@ header {
     padding-top: 1rem;
 }
 
-
 /* Header - Navbar */
 .navbar {
     width: 100%;
@@ -234,7 +233,6 @@ td {
 .quote-source {
     text-align: right;
 }
-
 
 /* Main content - Contact Us */
 
@@ -564,7 +562,6 @@ footer {
     }
 
     /* Main content - Contact Us */
-
     .signup-form {
         padding: 0 25% 0 25%;
     }
@@ -650,7 +647,6 @@ footer {
     /* Main content - Home - Quote section */
 
     /* Main content - Contact Us */
-
     .info-signup {
         display: flex;
         flex-direction: row;
