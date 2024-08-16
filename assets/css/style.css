@@ -96,7 +96,7 @@ nav li a {
 
 /* Main content - General */
 main {
-    background-color: #fcf087;
+    background-color: #fce787;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 7rem;

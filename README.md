@@ -143,7 +143,7 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 
 - As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
 - As a parent who wants to gather information about a possible drum schools since I quickly want to find information about this particular school.
-- - As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
+- As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
 
 ## Features
 - The Header
@@ -184,45 +184,47 @@ Kid's Drums is a drum school for children aged 5-10 years since there are very f
 
 ## Typography and Colour Schemes
 
-- Typography
-  - I used the Raleway and Merriweather fonts since I wanted it to be a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids. However, since it's still adults who will visit the site since they want to find a drum school for kids I didn't want to carry it too far with the embellishments.
+### Typography
+- I used the Raleway and Merriweather fonts since I wanted it to be a bit playful (tiny serifs) to better convey the site's message of being a drum school for kids. However, since it's still adults who will visit the site since they want to find a drum school for kids I didn't want to carry it too far with the embellishments.
 
-- Colour Schemes
-  - The dominant colours are whitesmoke and a shade of beige. They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
-  Luckily I also was able to find pictures on pexels.com of a drum kit with a similar colour which I then used as dividers between the sections on the homepage as well as on the Contact-Us page
-  - The hero image as well as the end-of-page image were chosen firstly because the show kids playing drums and secondly because the background was white-ish which works nicely with the navbar and footer colour of whitesmoke.
+### Colour Schemes
+- The dominant colours are whitesmoke and a shade of beige. They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
+Luckily I also was able to find pictures on pexels.com of a drum kit with a similar colour which I then used as dividers between the sections on the homepage as well as on the Contact-Us page
+- The hero image as well as the end-of-page image were chosen firstly because the show kids playing drums and secondly because the background was white-ish which works nicely with the navbar and footer colour of whitesmoke.
 
-  ## Wireframes
+## Wireframes
 
 
 
-  ## Technology
+## Technology
 
-  - Gitpod was used for writing and editing the code.
-  - GitHub is used for storing the code.
-  - Font Awesome was used to provide the icon for all social plattforms.
-  - favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
-  - Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
+- Gitpod was used for writing and editing the code.
+- GitHub is used for storing the code.
+- Font Awesome was used to provide the icon for all social plattforms.
+- favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
+- Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
 
 ## Testing
 
-- The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No error were found.
+### Code Validation
 
-Home/Pricing/Location
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2F
+The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No error were found.
 
-Contact-Us
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fcontact-us.html
+- index.html
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2F
 
-Confirmation
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fconfimation.html%3Fchilds-first-name%3Dasdf%26childs-last-name%3Dasdf%26childs-age%3D5%26guardians-first-name%3Dasdf%26guardians-last-name%3Dasdf%26email%3Dasdf%2540asdf%26phone%3D
+- contact-us.html
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fcontact-us.html
 
-CSS
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
+- confirmation.html
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Fconfimation.html%3Fchilds-first-name%3Dasdf%26childs-last-name%3Dasdf%26childs-age%3D5%26guardians-first-name%3Dasdf%26guardians-last-name%3Dasdf%26email%3Dasdf%2540asdf%26phone%3D
+
+- CSS
+  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de
 
 
 
-- User Stories - Test Cases
+### User Stories - Test Cases
   - As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
   Because of the simple layout of the site I found the Contact Us link right away in the very easily readable navigation bar.
   IMG
@@ -242,15 +244,17 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarkus-hefner.gi
   In the pricing section I also found a button for a free trial which led me to the contact us section.
   IMG
 
-- Bugs
-  - FIXED: At the beginning the background images were used as normal images within the HTML which led to distorted pictures. However, the problem was fixed after the images were loaded in the CSS.
-  - NOT FIXED: I was unable to get the input field of the form element to get to max-width of 20rem while also being aligned center by the parent container. They are now at their default width which looks a bit odd espacially on larger screen sizes.
+### Bugs
+- FIXED: At the beginning the background images were used as normal images within the HTML which led to distorted pictures. However, the problem was fixed after the images were loaded in the CSS.
+- NOT FIXED: I was unable to get the input field of the form element to get to max-width of 20rem while also being aligned center by the parent container. They are now at their default width which looks a bit odd espacially on larger screen sizes.
 
-- Supported Screens and Browsers
+### Supported Screens and Browsers
   - The Website was tested with Firefox and Google Chrome.
   - It was viewed stretched from a width of 280px up to a width of 2300px.
 
 ## Deployment
+
+
 
 
 
