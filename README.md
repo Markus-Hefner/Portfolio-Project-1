@@ -150,41 +150,66 @@ Kid's Drums is a drum school for children aged 5-10 years. Since there are very 
 - As caring guardians we already looked into drum schools and I would like to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
 
 ## Features
-- The Header
-  - The user will immediately see the school's name.
+- Hompage
+  - The Header
+    - The user will immediately see the school's name.
 
-- Navigation
-  - Below the header the user will find a navigation bar with links for "Home", "Pricing", "Location" and "Contact Us".
-  - While "Home", "Pricing" and "Location" are section within the homepage, "Contact Us" opens another page. This is because the information on every page would be too sparse to justify rendering a new page.
+  - Navigation
+    - Below the header the user will find a navigation bar with links for "Home", "Pricing", "Location" and "Contact Us".
+    - While "Home", "Pricing" and "Location" are section within the homepage, "Contact Us" opens another page. This is because the information on every page would be too sparse to justify rendering a new page.
 
-- The Banner Section
-  - The Banner Section gives a clear, one sentence statement who the school is for.
-  - It also provides a hero image to set the tone for the website.
+  - The Banner Section
+    - The Banner Section gives a clear, one sentence statement who the school is for.
+    - It also provides a hero image to set the tone for the website.
 
-- The Why Section
-  - With a simple bullet point list the Why Section states why this school is the right school for kids between the ages of 5 to 10.
+  - The Why Section
+    - With a simple bullet point list the Why Section states why this school is the right school for kids between the ages of 5 to 10.
 
-- The Pricing Section
-  - Here interested parents/guardians can find information about how much the different durations of the lessons will cost them per month.
-  - Furthermore they are informed that the lessons will take place only outside the school holidays which averages in Germany to about three lessons per month.
-  - To speed up the registration process users will also find a direct link to the contact us form and encourages them to take a trial lesson which is for free.
+    ![Homepage](readmedocs/Homepage.png "Homepage")
 
-- The Location Section
-  - User will find the address of the school. (Since the school doesn't exist this address is fictitious.)
+
+  - The Pricing Section
+    - Here interested parents/guardians can find information about how much the different durations of the lessons will cost them per month.
+    - Furthermore they are informed that the lessons will take place only outside the school holidays which averages in Germany to about three lessons per month.
+    - To speed up the registration process users will also find a direct link to the contact us form and encourages them to take a trial lesson which is for free.
+
+  - The Location Section
+    - User will find the address of the school. (Since the school doesn't exist this address is fictitious.)
+
+    ![Homepage-Pricing-Location-sections](readmedocs/Homepage-Pricing-Location-sections.png "Homepage with Pricing and Location sections")
+
+
+  - The Quote
+    - This is not a dedicated section. However, the user will find another hero image and a quote to further support the vibe of the site.
+
+  - The Footer
+    - In the footer the user will find all the social media icons which link to their respective social media plattform on which the school is active.
+
+    ![Homepage-Quote-section-Footer](readmedocs/Homepage-Quote-section-Footer.png "Homepage Quote section and Footer")
+
 
 - The Contact Us Page
   - The Contact Us Page presents the user with a form to provide all necessary information to the school
   - Everything but the phone number are required.
   - The "Submit"-button text is altered to "Count me in!" for it's abiguous meaning: "Count me in!" as in "I'm in" but also "Count me in" like when counting someone in before playing a song. This fit nicely with the musical nature of a drum school.
+  - This is further emphasized by the hero image of a drummer counting in.
+  - Submitting the data will send the user to the Confirmation Page.
 
-- Footer
-  - In the footer the user will find all the social media icons which link to their respective social media plattform on which the school is active.
+  ![Contact-Us-page](readmedocs/Contact-Us-page.png "Contact Us page")
+
+
+- The Confirmation Page
+  - On the Confirmation Page displays a short "Thank you!"-note as well as a confirmation that the data has been received and that someone will get it touch with the user soon.
+
+  ![Confirmation-page](readmedocs/Confirmation-page.png "Confirmation page")
+
 
 ## Future Features
 
-- In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the Location Section.
+- In order to make locating the school more frictionless it would be advantageous to add a google maps widget to the Location section.
 - To inform users/parents/guardians of the school's activities an "Events" page would be helpful. By showing the school's work in the form of concerts and the like it will enhance the school's visibility in the public and thus driving further client aquistion.
 - A dedicated area for enrolled students which is accessible via a dedicated sign in page/window where students and their parents/guardians will find lesson dates, homework info and the scores/exercises from the lessons will make it easier for the parents/guardians to see the progress their kids make and help the kids out in case they lose some music sheets.
+- The quote could change everytime one visits the site by being drawn randomly from a pool of "musical" quotes.
 
 ## Typography and Colour Schemes
 
@@ -234,29 +259,29 @@ Results:
 
 ### User Stories - Test Cases
   - As a visitor of this site I want to find and contact a drum teacher for my 6 year old child who just started elementary school.
-    - Because of the simple layout of the site they will find the Contact Us link right away in the very easily readable navigation bar.
-    ![Homepage](readmedocs/Userstories-image-1.png "Homepage")
-    - After clicking on it they will be re-directed to the site's "contact-us"-form.
-    ![Contact-Us-page](readmedocs/Userstories-image-2.png "Contact Us page")
-    - Here they can fill out the form whereby it won't be send and they will be notified in case anything is missing but the phone number (which is optional).
-    ![Contact-Us-page-missing-data](readmedocs/Userstories-image-3.png "Contact Us page missing data")
-    - After submitting the form by clicking on the "Count Me In!"-button they will be re-directed to a confirmation page. From here they can go to homepage, the pricing section, the location section or contact them via the links in the navigation bar.
-    ![Confirmation-page](readmedocs/Userstories-image-4.png "Confirmation page")
+    - Because of the simple layout of the site the user will find the Contact Us link right away in the very easily readable navigation bar.
+    ![Homepage](readmedocs/Homepage.png "Homepage")
+    - After clicking on it the user will be re-directed to the site's "contact-us"-form.
+    ![Contact-Us-page](readmedocs/Contact-Us-page.png "Contact Us page")
+    - Here the user can fill out the form whereby it won't be send and the user will be notified in case anything is missing but the phone number (which is optional).
+    ![Contact-Us-page-missing-data](readmedocs/Contact-Us-page-missing-data.png "Contact Us page missing data")
+    - After submitting the form by clicking on the "Count Me In!"-button the user will be re-directed to a confirmation page. From here they can go to homepage, the pricing section, the location section or contact school again via the links in the navigation bar.
+    ![Confirmation-page](readmedocs/Confirmation-page.png "Confirmation page")
 
   - As a parent I want to quickly gather information about this drum school as well as get feel for it in order to find out whether or not it is a possible option for our child.
-    - As a first time visitor the user will be greeted with a welcoming and warm homepage. The colour schemes are inviting and coherent and the hero image immediately establish a feeling that this site is all about drumming and the enjoyment of it. In the navigation bar will find links to the different sections and pages.
-    ![Homepage](readmedocs/Userstories-image-1.png "Homepage")
+    - As a first time visitor the user will be greeted with a welcoming and warm homepage. The colour schemes are inviting and coherent and the hero image immediately establishes a feeling that this site is all about drumming and the enjoyment of it. In the navigation bar the user will find links to the different sections and pages.
+    ![Homepage](readmedocs/Homepage.png "Homepage")
     - To see the section the user can also just scroll down in order to get a better overall impression of the site and thus a better feeling for the school.
-    ![Homepage-Pricing-Location-sections](readmedocs/Userstories-image-5.png "Homepage with Pricing and Location sections")
-    - The information is structured a sensible manner. Furthermore the hero image at the end of page emphasizes agian the school's playful approach to playing drums as well as an inspiring quote.
-    ![Homepage-Quote-section-Footer](readmedocs/Userstories-image-6.png "Homepage Quote section and Footer")
+    ![Homepage-Pricing-Location-sections](readmedocs/Homepage-Pricing-Location-sections.png "Homepage with Pricing and Location sections")
+    - The information is structured a sensible manner. Furthermore at the end of page the user will see another hero image emphasizing again the school's playful approach to playing drums as well as an inspiring quote emphasizing the love for music.
+    ![Homepage-Quote-section-Footer](readmedocs/Homepage-Quote-section-Footer.png "Homepage Quote section and Footer")
     - For further information the user will find in the footer all social links which open in a new tab.
 
   - As caring guardians we already looked into drum schools and I would like to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
-    - Upon entering the homepage the users can quickly and easily find the most relevant information either by clicking on the corresponding links in the navigation bar or by scrolling down. This information is all contained as sections on the homepage for fast accessibility instead of opening a new HTML-file.
-    ![Homepage-Pricing-Location-sections-button-hovered](readmedocs/Userstories-image-7.png "Homepage with Pricing and Location sections, cursor hovering over button")
-    In the Pricing section the users also learn via a button text that there is a free trial lesson. By clicking the button the users are directly forwarded to the Contact Us form.
-    I![Contact-Us-page](readmedocs/Userstories-image-2.png "Contact Us page")
+    - Upon entering the homepage the users can quickly and easily find the most relevant information either by clicking on the corresponding links in the navigation bar or by scrolling down. This information is all contained as sections on the homepage for fast accessibility instead of opening a new HTML-file for each.
+    ![Free-Trial-button-hovered](readmedocs/Free-Trial-button-hovered.png "Free Trial button hovered")
+    In the Pricing section the users also learn via a button text that there is a free trial lesson. By clicking on the button the users are directly forwarded to the Contact Us form.
+    I![Contact-Us-page](readmedocs/Contact-Us-page.png "Contact Us page")
     - Since the title and navigation bar remain at the top of the screen at all times the users are able to move quickly on the site.
 
 ### Bugs
