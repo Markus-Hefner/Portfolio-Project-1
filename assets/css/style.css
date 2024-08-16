@@ -283,7 +283,7 @@ td {
     align-self: center;
 }
 
-.contact-end-image {
+.contact-image {
     background: url(../images/hero-3.jpg) no-repeat 50% 25% / cover;
     height: 15rem;
 }
@@ -443,7 +443,7 @@ footer {
         margin: 1.8rem 0 0.6rem 0;
     }
 
-    .contact-end-image {
+    .contact-image {
         height: 25rem;
         align-self: center;
         width: 60%;
@@ -585,7 +585,7 @@ footer {
         align-self: center;
     }
 
-    .contact-end-image {
+    .contact-image {
         height: 30rem;
         margin: 1.5rem 5% 1.5rem 5%;
     }
