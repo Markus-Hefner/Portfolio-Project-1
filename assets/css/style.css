@@ -56,7 +56,7 @@ header {
 .title-section h1 {
     font-size: 2rem;
     color: #272727;
-    height: 100%;
+    height: 5rem;
     width: 80%;
     position: absolute;
     left: -3%;
@@ -66,7 +66,7 @@ header {
 
 
 /* Header - Navbar */
-.navbar-div {
+.navbar {
     width: 100%;
     height: 2rem;
     background-color: #f5f5f5;
@@ -91,7 +91,7 @@ nav li a {
     color: #272727;
     text-decoration: none;
     font-size: 95%;
-    padding: 0 0.3rem 0 0.3rem;
+    padding: 0 0.2rem 0 0.2rem;
 }
 
 /* Main content - General */
@@ -367,7 +367,7 @@ footer {
     }
 
     /* Header - Navbar */
-    .navbar-div {
+    .navbar {
         height: 2.4rem;
     }
 
@@ -474,7 +474,7 @@ footer {
     }
 
     /* Header - Navbar */
-    .navbar-div {
+    .navbar {
         height: 3rem;
     }
 
