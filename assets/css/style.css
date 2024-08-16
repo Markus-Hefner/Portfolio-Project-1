@@ -333,9 +333,6 @@ footer {
     text-decoration: none;
 }
 
-
-
-
 /* Media query large devices 768px and up */
 @media screen and (min-width: 768px) {
     h2 {
@@ -380,7 +377,7 @@ footer {
     }
 
     /* Main content - Home - Banner section */
-    
+
     .banner h2 {
         padding-bottom: 0.5rem;
     }
@@ -448,6 +445,10 @@ footer {
         width: 60%;
     }
 
+    /* Footer */
+    .social-links {
+        gap: 1.2rem;
+    }
 }
 
 /* Media query large devices 992px and up */
@@ -560,6 +561,15 @@ footer {
         height: 30rem;
         margin: 1.5rem 5% 1.5rem 5%;
     }
+
+    /* Footer */
+    .visit-us h4 {
+        font-size: 110%;
+    }
+
+    .social-links {
+        gap: 1.4rem;
+    }
 }
 
 /* Media query large devices 1200px and up */
@@ -614,5 +624,14 @@ footer {
         padding: 0 10% 0 10%;
         height: 35rem;
         flex-basis: 60%;
+    }
+
+    /* Footer */
+    .visit-us h4 {
+        font-size: 115%;
+    }
+
+    .social-links {
+        gap: 1.6rem;
     }
 }
