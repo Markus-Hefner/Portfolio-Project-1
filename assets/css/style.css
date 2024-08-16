@@ -216,7 +216,7 @@ td {
     padding: 0 0 0.2rem 0;
 }
 
-/* Main content - Home - End of homepage section */
+/* Main content - Home - Quote section */
 .quote-image {
     background: url(../images/hero-2.jpg) no-repeat center 35% / cover;
     height: 15rem;
@@ -421,7 +421,7 @@ footer {
         font-size: 100%;
     }
 
-    /* Main content - Home - End of homepage section */
+    /* Main content - Home - Quote section */
     .quote-image {
         height: 18rem;
     }
@@ -558,7 +558,7 @@ footer {
         flex-basis: 50%;
     }
 
-    /* Main content - Home - End of homepage section */
+    /* Main content - Home - Quote section */
     .quote {
         margin: 1rem 0 1rem 0;
     }
@@ -647,7 +647,7 @@ footer {
 
     /* Main content - Home - Location section */
 
-    /* Main content - Home - End of homepage section */
+    /* Main content - Home - Quote section */
 
     /* Main content - Contact Us */
 
