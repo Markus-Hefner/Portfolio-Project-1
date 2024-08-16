@@ -139,7 +139,11 @@ Happy coding!
 
 Kid's Drums is a drum school for children aged 5-10 years since there are very few drum school who are specialized on this target audience. They curicullum and teaching style is espcially tailored to the learning style of kids that age. 5-10 years was chosen because in Germany it roughly spans the time of elementary school (including the last year of kindergarten) to which the learning system is most applicable.
 
-Users who will visit this site will find what the school is about, what differences to more traditional drum schools are as well as pricing, location and, of course, a contact form.
+## User Stories
+
+- As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
+- As a parent who wants to gather information about a possible drum schools since I quickly want to find information about this particular school.
+- - As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
 
 ## Features
 - The Header
@@ -187,3 +191,59 @@ Users who will visit this site will find what the school is about, what differen
   - The dominant colours are whitesmoke and a shade of beige. They were chosen because they resemble the colour of a coated drumhead and the wood of a pair of sticks.
   Luckily I also was able to find pictures on pexels.com of a drum kit with a similar colour which I then used as dividers between the sections on the homepage as well as on the Contact-Us page
   - The hero image as well as the end-of-page image were chosen firstly because the show kids playing drums and secondly because the background was white-ish which works nicely with the navbar and footer colour of whitesmoke.
+
+  ## Wireframes
+
+
+
+  ## Technology
+
+  - Gitpod was used for writing and editing the code.
+  - GitHub is used for storing the code.
+  - Font Awesome was used to provide the icon for all social plattforms.
+  - favicon.io was used to turn the icon into usable code to paste into the head element in order to get a favicon.
+  - Google Fonts provides the Merriweather and Raleway fonts which were used an all pages of this site.
+
+## Testing
+
+- The W3C Markup Validator and W3C CSS Validator Services were used to check the code of all pages. No error were found.
+
+report
+
+- User Stories - Test Cases
+  - As a visitor of this site I want to find a drum teacher for my 6 year old child who just started elementary school.
+  Because of the simple layout of the site I found the Contact Us link right away in the very easily readable navigation bar.
+  IMG
+  After clicking on it I was re-directed to the site contact us form. I right away clicked on the "Count Me In!"-button. However, I was informed that I first had to put in my child's first name.
+  IMG
+  After that I clicked again on the "Count Me In!"-button but again I was informed that I had fill out the next input field.
+  IMG
+  This went on as such until the phone number which I was allowed to skip.
+  IMG
+  Then I was re-directed to a confirmation page. Since the basic layout was the same from here I had the option to go to homepage, the pricing section, the location section or contact them again by click again on the "Contact-Us"-button.
+
+  - As a parent who wants to gather information about a possible drum schools since I quickly want to find information about this particular school.
+  As a first time visitor I was greeted with a welcoming and warm homepage. The color schemes and images immediately established the feeling of drumming and music. In the navigation bar I found links to the different sections and pages. To see the section I could also just scroll down. In order to get a better feeling for the school I chose the latter. All was very clean and I quickly got sense of school and enough information to make an informed desicion.
+
+  - As a caring parent who already looked into drum schools I want to know what exactly the differences to a more traditional drum schools are. Furthermore I'd like to easily compare pricing and location.
+  However, I decided to use the links since I find more efficient and I always new were I was. And since the header and title remained at the top of the screen at all times I was able to go from anywhere to everywhere on the site.
+  In the pricing section I also found a button for a free trial which led me to the contact us section.
+  IMG
+
+- Bugs
+  - FIXED: At the beginning the background images were used as normal images within the HTML which led to distorted pictures. However, the problem was fixed after the images were loaded in the CSS.
+  - NOT FIXED: I was unable to get the input field of the form element to get to max-width of 20rem while also being aligned center by the parent container. They are now at their default width which looks a bit odd espacially on larger screen sizes.
+
+- Supported Screens and Browsers
+  - The Website was tested with Firefox and Google Chrome.
+  - It was viewed stretched from a width of 280px up to a width of 2300px.
+
+## Deployment
+
+
+
+
+
+
+
+
